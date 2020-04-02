@@ -43,7 +43,8 @@ Los comunicados técnicos diarios desde 2020-02-27 fueron compilados por Sur Her
 
 Las tablas de casos positivos y sospechosos desde 2020-03-25 fueron compilados por Sur Herrera Paredes.
 
-Otros contribuyentes:
-Guillermo de Anda-Jáuregui (https://github.com/guillermodeandajauregui/datos_covid19.mx)
+### Otros contribuyentes:
+
+* Guillermo de Anda-Jáuregui (https://github.com/guillermodeandajauregui/datos_covid19.mx)
 
 
