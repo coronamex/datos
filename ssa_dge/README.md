@@ -10,11 +10,9 @@ avísame en [Twitter](https://twitter.com/sur_hp)*
 agregados nacionales para casos positivos, sospechosos y muertes.
 Los números son tomados del comunicado técnico diario desde el
 2020-02-27.
-* **tabla_casos_confirmados.csv**: La tabla de casos
+* **tabla_casos_confirmados.csv**: Vínculo a la a tabla de casos
 conformados como positivos por el InDRE en la fecha más
 reciente disponible en formato CSV.
-* **tabla_dge_mas_reciente.pdf**: Vínculo al archivo PDF
-con la tablad de casos positivos del InDRE más reciente.
 
 ## Subdirectorios por fecha
 
@@ -38,4 +36,15 @@ Todos los archivos PDF son descargados diariamente de la
 [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia).
 El URL parece cambiar diariamente pero este es el último:
 https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diario-238449
+
+## Compilación de datos
+
+Los comunicados técnicos diarios desde 2020-02-27 fueron compilados por Sur Herrera Paredes.
+
+Las tablas de casos positivos y sospechosos desde 2020-03-25 fueron compilados por Sur Herrera Paredes.
+
+### Otros contribuyentes:
+
+* Guillermo de Anda-Jáuregui (https://github.com/guillermodeandajauregui/datos_covid19.mx)
+
 
