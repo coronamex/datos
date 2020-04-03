@@ -1,7 +1,7 @@
 # Datos de la Dirección general de Epidemiología de la Secretaría de Salud
 
 **AYUDA** *Si tienes las tablas de casos positivos/sospechosos
-antes del 2020-03-15, o las tablas de casosn/defunciones por estado antes
+antes del 2020-03-15, o las tablas de casos/defunciones por estado antes
 del 2020-04-01 en cualquier formato por favor avísame en
 [Twitter](https://twitter.com/sur_hp)*.
 
