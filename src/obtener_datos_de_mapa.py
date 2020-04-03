@@ -133,6 +133,4 @@ if __name__ == "__main__":
     # Convertir a pandas
     print("Convirtiendo a DataFrame...")
     df = json_a_dataframe(mapa_json)
-    with open(args.archivo_csv, 'w') as hs:
-        hs.write(df)
-    hs.close
+    df.to_csv(args.archivo_csv, index=False)
