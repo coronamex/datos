@@ -36,7 +36,8 @@ ha sido convertida a formato CSV con el nombre:
 tabla\_casos\_confirmados.csv
 
 A partir del 2020-04-01 se descarga una tabla en formato json del
-sitio web con mapa interactivo de la Dirección General de Epidemiología.
+[mapa interactivo](http://ncov.sinave.gob.mx/mapa.aspx)
+de la Dirección General de Epidemiología.
 Los archivos se llaman "datos\_mapa.json". Además la tabla es convertida
 a formato CSV y llamada "datos\_mapa.csv".
 
