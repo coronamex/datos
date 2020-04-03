@@ -103,10 +103,10 @@ def obtener_json(url):
     return mapa_json
 
 
-def json_a_dataframe(json):
+def json_a_dataframe(cadena_json):
     """Convertir json a pandas Data Frame"""
 
-    tab = json.loads(json.loads(json)['d'])
+    tab = json.loads(json.loads(cadena_json)['d'])
     df = pd.DataFrame(tab,
                       columns=['id', 'estado', 'pob', 'num',
                                'casos_acumulados',
