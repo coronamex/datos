@@ -52,5 +52,6 @@ Las tablas de casos positivos y sospechosos desde 2020-03-25 fueron compilados p
 ### Otros contribuyentes:
 
 * Guillermo de Anda-Jáuregui (https://github.com/guillermodeandajauregui/datos_covid19.mx)
+* Repositorio [mexicovid19/Mexico-datos](https://github.com/mexicovid19/Mexico-datos)
 
 
