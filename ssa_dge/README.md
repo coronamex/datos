@@ -1,8 +1,9 @@
-# Datos de la Dirección general de Epidemiología de la Secretaríá de Salud
+# Datos de la Dirección general de Epidemiología de la Secretaría de Salud
 
-**AYUDA** *Si tienes las tablas de casos positivos y sospechosos
-antes del 2020-03-25 en formato PDF (u otro formato) pro favor
-avísame en [Twitter](https://twitter.com/sur_hp)*
+**AYUDA** *Si tienes las tablas de casos positivos/sospechosos
+antes del 2020-03-15, o las tablas de casosn/defunciones por estado antes
+del 2020-04-01 en cualquier formato por favor avísame en
+[Twitter](https://twitter.com/sur_hp)*.
 
 ## Archivos principales
 
@@ -53,5 +54,3 @@ Las tablas de casos positivos y sospechosos desde 2020-03-25 fueron compilados p
 
 * Guillermo de Anda-Jáuregui (https://github.com/guillermodeandajauregui/datos_covid19.mx)
 * Repositorio [mexicovid19/Mexico-datos](https://github.com/mexicovid19/Mexico-datos)
-
-

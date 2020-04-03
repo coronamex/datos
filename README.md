@@ -1,8 +1,9 @@
 # Datos sobre el COVID-19 en méxico.
 
-**AYUDA** *Si tienes las tablas de casos positivos y sospechosos
-antes del 2020-03-25 en formato PDF (u otro formato) pro favor
-avísame en [Twitter](https://twitter.com/sur_hp)*
+**AYUDA** *Si tienes las tablas de casos positivos/sospechosos
+antes del 2020-03-15, o las tablas de casosn/defunciones por estado antes
+del 2020-04-01 en cualquier formato por favor avísame en
+[Twitter](https://twitter.com/sur_hp)*.
 
 Los siguientes directorios están presentes:
 
