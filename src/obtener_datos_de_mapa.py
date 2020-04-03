@@ -19,6 +19,7 @@ import os
 import json
 import pycurl
 from io import BytesIO
+import pandas as pd
 
 
 def process_arguments():
@@ -54,6 +55,15 @@ def process_arguments():
     args = parser.parse_args()
 
     # Processing goes here if needed
+    args.archivo_json = args.dir_salida + '/datos_mapa.json'
+    args.archivo_csv = args.dir_salida + '/datos_mapa.csv'
+
+    if not os.path.isdir(args.dir_salida):
+        raise ValueError("Directorio de salida no existe.")
+    if os.path.isfile(args.archivo_csv) and not args.sobreescribir:
+        raise FileExistsError("Archivo de salida CSV ya existe.")
+    if os.path.isfile(args.archivo_json) and not args.sobreescribir:
+        raise FileExistsError("Archivo de salida JSON ya existe.")
 
     return args
 
@@ -92,5 +102,37 @@ def obtener_json(url):
 
     return mapa_json
 
-tab = json.loads(json.loads(mapa_json)['d'])
-tab
+
+def json_a_dataframe(json):
+    """Convertir json a pandas Data Frame"""
+
+    tab = json.loads(json.loads(json)['d'])
+    df = pd.DataFrame(tab,
+                      columns=['id', 'estado', 'pob', 'num',
+                               'casos_acumulados',
+                               'negativos_acumulados',
+                               'sospechosos', 'muertes_acumuladas'])
+    df = df.drop(columns=['id', 'pob', 'num'])
+    ii = ['casos_acumulados', 'negativos_acumulados',
+          'sospechosos', 'muertes_acumuladas']
+    df[ii] = df[ii].apply(pd.to_numeric)
+
+    return df
+
+
+if __name__ == "__main__":
+    args = process_arguments()
+
+    # Leer el mapa en formato json
+    print("Leyendo mapa...")
+    mapa_json = obtener_json(args.url)
+    with open(args.archivo_json, 'w') as hs:
+        hs.write(mapa_json)
+    hs.close
+
+    # Convertir a pandas
+    print("Convirtiendo a DataFrame...")
+    df = json_a_dataframe(mapa_json)
+    with open(args.archivo_csv, 'w') as hs:
+        hs.write(df)
+    hs.close
