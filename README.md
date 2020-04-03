@@ -5,6 +5,9 @@ antes del 2020-03-15, o las tablas de casosn/defunciones por estado antes
 del 2020-04-01 en cualquier formato por favor avísame en
 [Twitter](https://twitter.com/sur_hp)*.
 
+Este repositorio contiene los datos presentados en
+[CoronaMex](https://github.com/coronamex)
+
 Los siguientes directorios están presentes:
 
 * **demograficos**: Datos demográficos de diversas fuentes. Revizar el
