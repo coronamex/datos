@@ -40,5 +40,7 @@ usa para obtener datos por estado. Esta es una fuente oficial.
 * [Repositorio de Guillermo de Anda-Jáuregui](https://github.com/guillermodeandajauregui/datos_covid19.mx) para completar tablas de casos confirmados. Esta es una
 fuente no oficial.
 * Repositorio [mexicovid19/Mexico-datos](https://github.com/mexicovid19/Mexico-datos)
-para completar tablas de casos confirmados y sospechososl. Esta es una fuente
-no oficial
+para completar tablas de casos confirmados y sospechosos. Esta es una fuente
+no oficial.
+* [Repositorio de Gabriel Alfonso Carranco-Sapiéns](https://github.com/carranco-sga/Mexico-COVID-19)
+para completar tabla de casos confirmados. Esta es una fuente no oficial.
