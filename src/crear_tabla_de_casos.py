@@ -61,9 +61,12 @@ if __name__ == "__main__":
     Tab = Tab.drop(0)
     for i in range(1, casos_positivos.n):
         Tab = Tab.append(casos_positivos[i].df)
+    # Tab.columns = ['caso', 'estado', 'sexo', 'edad',
+    #                'fecha_sintomas', 'confirmado',
+    #                'procedencia', 'fecha_llegada']
     Tab.columns = ['caso', 'estado', 'sexo', 'edad',
                    'fecha_sintomas', 'confirmado',
-                   'procedencia', 'fecha_llegada']
+                   'procedencia']
     Tab = Tab.reset_index()
     Tab = Tab.drop(columns=['caso', 'confirmado', 'index'])
 
