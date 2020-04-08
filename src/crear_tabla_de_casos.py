@@ -121,8 +121,7 @@ def dividir_pdf_y_combinar(archivo, tempdir="./tempdir/",
 
     # Dividir archivo en páginas
     archivos = dividir_paginas_pdf(archivo=archivo,
-                                   tempdir=tempdir,
-                                   )
+                                   tempdir=tempdir)
 
     # Leer y combinar todas las hojas en una tabla
     Tab = pd.DataFrame()
@@ -152,7 +151,10 @@ if __name__ == "__main__":
     args = process_arguments()
 
     # Leer tabla
-    Tab = combinar_tablas_de_pdf(args.pdf_dge)
+    Tab = combinar_tablas_de_pdf(args.pdf_dge,
+                                 columnas=['caso', 'estado', 'sexo', 'edad',
+                                           'fecha_sintomas', 'confirmado',
+                                           'procedencia', 'fecha_llegada'])
 
     # Escribir el archivo final
     Tab.to_csv(args.tabla_csv, sep=",", index=False)
