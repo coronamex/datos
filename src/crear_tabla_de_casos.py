@@ -93,6 +93,7 @@ def combinar_tablas_de_pdf(archivo,
     Tab = casos_positivos[0].df
     Tab = Tab.drop(0)
     for i in range(1, casos_positivos.n):
+        print(i)
         Tab = Tab.append(casos_positivos[i].df)
 
     # Renombrar columnas y añadir vacías si es necesario
@@ -126,6 +127,7 @@ def dividir_pdf_y_combinar(archivo, tempdir="./tempdir/",
     # Leer y combinar todas las hojas en una tabla
     Tab = pd.DataFrame()
     for a in archivos:
+        print(a)
         casos_positivos = camelot.read_pdf(a, pages='all')
         Tab = Tab.append(casos_positivos[0].df)
     Tab = Tab.reset_index().drop(columns='index').drop(0)
