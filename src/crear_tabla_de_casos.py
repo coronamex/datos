@@ -87,10 +87,8 @@ def combinar_tablas_de_pdf(archivo):
     # Leer y combinar todas las hojas en una tabla
     casos_positivos = camelot.read_pdf(archivo, pages='all')
     Tab = casos_positivos[0].df
-    print(casos_positivos[0].df.shape)
     Tab = Tab.drop(0)
     for i in range(1, casos_positivos.n):
-        print(casos_positivos[i].df.shape)
         Tab = Tab.append(casos_positivos[i].df)
     Tab.columns = ['caso', 'estado', 'sexo', 'edad',
                    'fecha_sintomas', 'confirmado',
@@ -107,7 +105,10 @@ def combinar_tablas_de_pdf(archivo):
 def dividir_pdf_y_combinar(archivo, tempdir="./tempdir/"):
     """Toma un archivo pdf lo divide en un archivo por
     página, lee la tabla de cada archivo y las combina en
-    una tabla"""
+    una tabla.
+
+    No hay ventaja de tiempo directa, pero podría ser
+    paralelizable."""
 
     # Dividir archivo en páginas
     archivos = dividir_paginas_pdf(archivo=archivo,
@@ -116,15 +117,14 @@ def dividir_pdf_y_combinar(archivo, tempdir="./tempdir/"):
     # Leer y combinar todas las hojas en una tabla
     Tab = pd.DataFrame()
     for a in archivos:
-        print(a)
         casos_positivos = camelot.read_pdf(a, pages='all')
-        print(casos_positivos[0].df.shape)
         Tab = Tab.append(casos_positivos[0].df)
-        # print(Tab.shape)
     Tab = Tab.reset_index().drop(columns='index').drop(0)
     Tab.columns = ['caso', 'estado', 'sexo', 'edad',
                    'fecha_sintomas', 'confirmado',
                    'procedencia', 'fecha_llegada']
+    # Tab = Tab.reset_index()
+    # Tab = Tab.drop(columns=['caso', 'confirmado', 'index'])
     Tab = Tab.drop(columns=['caso', 'confirmado'])
 
     # Limpiar
@@ -135,10 +135,6 @@ def dividir_pdf_y_combinar(archivo, tempdir="./tempdir/"):
 
 if __name__ == "__main__":
     args = process_arguments()
-
-    # # Dividir archivo en páginas
-    # archivos = dividir_paginas_pdf(archivo=args.pdf_dge,
-    #                                tempdir="./tempdir/")
 
     Tab = combinar_tablas_de_pdf(args.pdf_dge)
 
