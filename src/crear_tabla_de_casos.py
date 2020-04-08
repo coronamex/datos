@@ -93,7 +93,7 @@ def combinar_tablas_de_pdf(archivo,
     Tab = casos_positivos[0].df
     Tab = Tab.drop(0)
     for i in range(1, casos_positivos.n):
-        print(i)
+        # print(i)
         Tab = Tab.append(casos_positivos[i].df)
 
     # Renombrar columnas y añadir vacías si es necesario
