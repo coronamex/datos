@@ -16,7 +16,11 @@
 
 import argparse
 import camelot
-# import pandas as pd
+import os
+import PyPDF2 as pypdf
+import pandas as pd
+import shutil
+import numpy as np
 
 
 def process_arguments():
@@ -52,23 +56,107 @@ def process_arguments():
     return args
 
 
-if __name__ == "__main__":
-    args = process_arguments()
+def dividir_paginas_pdf(archivo, tempdir="./tempdir/"):
+    """Tomar un pdf y dividirlo en un archivo por página"""
+
+    if os.path.isdir(tempdir):
+        raise ValueError("Directorio temporal ya existe.")
+    else:
+        os.mkdir(tempdir)
+
+    # Leer archivo
+    pdf = pypdf.PdfFileReader(open(archivo, "rb"))
+
+    # Separara en páginas
+    archivos_pdf = []
+    for i in range(pdf.numPages):
+        nuevo = pypdf.PdfFileWriter()
+        nuevo.addPage(pdf.getPage(i))
+        archivos_pdf.append(tempdir + "/" + str(i) + ".pdf")
+        with open(archivos_pdf[i], "wb") as hs:
+            nuevo.write(hs)
+        hs.close()
+
+    return archivos_pdf
+
+
+def combinar_tablas_de_pdf(archivo,
+                           columnas=['caso', 'estado', 'sexo', 'edad',
+                                     'fecha_sintomas', 'confirmado',
+                                     'procedencia', 'fecha_llegada']):
+    """Toma un archivo PDF con una tabla en varias
+    páginas, lee todo el archivo en una tabla por
+    página, y combina las tablas en una"""
 
     # Leer y combinar todas las hojas en una tabla
-    casos_positivos = camelot.read_pdf(args.pdf_dge, pages='all')
+    casos_positivos = camelot.read_pdf(archivo, pages='all')
     Tab = casos_positivos[0].df
     Tab = Tab.drop(0)
     for i in range(1, casos_positivos.n):
+        # print(i)
         Tab = Tab.append(casos_positivos[i].df)
-    # Tab.columns = ['caso', 'estado', 'sexo', 'edad',
-    #                'fecha_sintomas', 'confirmado',
-    #                'procedencia', 'fecha_llegada']
-    Tab.columns = ['caso', 'estado', 'sexo', 'edad',
-                   'fecha_sintomas', 'confirmado',
-                   'procedencia']
+
+    # Renombrar columnas y añadir vacías si es necesario
+    Tab.columns = columnas[0:Tab.shape[1]]
+    if Tab.shape[1] < len(columnas):
+        for c in columnas[Tab.shape[1]:]:
+            Tab[c] = np.nan
+
+    # Limpiar
     Tab = Tab.reset_index()
     Tab = Tab.drop(columns=['caso', 'confirmado', 'index'])
 
+    return Tab
+
+
+def dividir_pdf_y_combinar(archivo, tempdir="./tempdir/",
+                           columnas=['caso', 'estado', 'sexo', 'edad',
+                                     'fecha_sintomas', 'confirmado',
+                                     'procedencia', 'fecha_llegada']):
+    """Toma un archivo pdf lo divide en un archivo por
+    página, lee la tabla de cada archivo y las combina en
+    una tabla.
+
+    No hay ventaja de tiempo directa, pero podría ser
+    paralelizable."""
+
+    # Dividir archivo en páginas
+    archivos = dividir_paginas_pdf(archivo=archivo,
+                                   tempdir=tempdir)
+
+    # Leer y combinar todas las hojas en una tabla
+    Tab = pd.DataFrame()
+    for a in archivos:
+        print(a)
+        casos_positivos = camelot.read_pdf(a, pages='all')
+        Tab = Tab.append(casos_positivos[0].df)
+    Tab = Tab.reset_index().drop(columns='index').drop(0)
+
+    # Renombrar columnas y añadir vacías si es necesario
+    Tab.columns = columnas[0:Tab.shape[1]]
+    if Tab.shape[1] < len(columnas):
+        for c in columnas[Tab.shape[1]:]:
+            Tab[c] = np.nan
+
+    # Igualar índices con función para leer un sólo PDF
+    # Tab = Tab.reset_index()
+    # Tab = Tab.drop(columns=['caso', 'confirmado', 'index'])
+
+    # Limpiar
+    Tab = Tab.drop(columns=['caso', 'confirmado'])
+    shutil.rmtree("./tempdir/")
+
+    return Tab
+
+
+if __name__ == "__main__":
+    args = process_arguments()
+
+    # Leer tabla
+    Tab = combinar_tablas_de_pdf(args.pdf_dge,
+                                 columnas=['caso', 'estado', 'sexo', 'edad',
+                                           'fecha_sintomas', 'confirmado',
+                                           'procedencia', 'fecha_llegada'])
+
     # Escribir el archivo final
-    Tab.to_csv(args.tabla_csv, sep=",", index=False)
+    Tab.to_csv(args.tabla_csv, sep=",", index=False, na_rep = "NA")
