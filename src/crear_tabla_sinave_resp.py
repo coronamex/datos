@@ -83,9 +83,9 @@ def leer_sinave_tab(archivo, pagina,
     tab = tab.drop(range(lineas_saltar))
     tab = tab.drop(tab.index[32:])
     tab.columns = columnas[0:tab.shape[1]]
-    if tab.shape[1] < len(columnas):
-        for c in columnas[tab.shape[1]:]:
-            tab[c] = np.nan
+    # if tab.shape[1] < len(columnas):
+    #     for c in columnas[tab.shape[1]:]:
+    #         tab[c] = np.nan
 
     tab_numerica = tab.iloc[:, [0]].copy()
     for i in range(1, tab.shape[1]):
