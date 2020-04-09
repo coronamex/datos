@@ -69,7 +69,8 @@ def leer_sinave_tab(archivo, pagina,
                               'neum_nuevos', 'neum_acum_M', 'neum_acum_F',
                               'neum_acum_previo',
                               'covid19_nuevos', 'covid19_acum_M',
-                              'covid19_acum_F']):
+                              'covid19_acum_F'],
+                    eliminar=[]):
     """Leer una tabla del Boletín del SINAVE"""
 
     # Dividir PDF y leer página especificada
@@ -91,6 +92,8 @@ def leer_sinave_tab(archivo, pagina,
     for i in range(1, tab.shape[1]):
         vals = [pd.to_numeric(n.replace(' ', '').replace('-', '0')) for n in tab.iloc[:,i]]
         tab_numerica[tab.columns[i]] = vals
+    if len(eliminar) > 0:
+        tab_numerica = tab_numerica.drop(columns=eliminar)
 
     # Limpiar
     shutil.rmtree("./tempdir")
