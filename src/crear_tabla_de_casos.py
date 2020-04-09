@@ -159,4 +159,4 @@ if __name__ == "__main__":
                                            'procedencia', 'fecha_llegada'])
 
     # Escribir el archivo final
-    Tab.to_csv(args.tabla_csv, sep=",", index=False, na_rep = "NA")
+    Tab.to_csv(args.tabla_csv, sep=",", index=False, na_rep="NA")
