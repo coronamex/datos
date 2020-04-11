@@ -15,9 +15,12 @@ con datos por estado. Guarda los datos en formato JSON y CSV.
 Estos scripts usan los datos recolectados y producen tablas
 estandarizadas.
 
-* **crear_tabla_estados_casos.r**: Le las tablas de casos positivos
+* **crear_tabla_estados_casos.r**: Lee las tablas de casos positivos
 diarias y produce un archivo CSV con casos acumulados y casos
 nuevos por estado por día.
+* **procesar_tablas_principales**: Homogeniza los nombres de los
+estados en las tablas de casos confirmados y los datos del mapa
+interactivo.
 
 ## Importadores
 
