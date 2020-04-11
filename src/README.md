@@ -15,9 +15,11 @@ con datos por estado. Guarda los datos en formato JSON y CSV.
 Estos scripts usan los datos recolectados y producen tablas
 estandarizadas.
 
-* **crear_tabla_estados_casos.r**: Lee las tablas de casos positivos
-diarias y produce un archivo CSV con casos acumulados y casos
-nuevos por estado por día.
+* **crear_series_tiempo_estados.r**: Lee las tablas de casos positivos
+diarias, así como los datos del mapa interactivo y produce archivos CSV
+con casos y muertes por día (acumulados y nuevos) por estado. Para
+los días en que no hay tablas de casos positivos o datos de mapa,
+usa los archivos "datos\_estado.csv".
 * **procesar_tablas_principales**: Homogeniza los nombres de los
 estados en las tablas de casos confirmados y los datos del mapa
 interactivo.
