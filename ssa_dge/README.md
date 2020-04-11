@@ -50,6 +50,17 @@ de la Dirección General de Epidemiología. Los archivos se llaman
 "datos\_mapa.json". Además la tabla es convertida
 a formato CSV y llamada "datos\_mapa.csv".
 
+Previo al 2020-04-01. Hay un archivo "datos\_estados.csv" que contiene
+los casos y muertes acumulado(a)s por estado. Estos datos fueron
+importados del 
+[repositorio de Gabriel Alfonso Carranco-Sapiéns](https://github.com/carranco-sga/Mexico-COVID-19). Los números de casos coinciden completamente
+con los números calculados en CoronaMex basados en la tabla de
+casos positivos en. Estos archivos se usan para completar la línea del
+tiempo de casos por estado antes del 2020-03-14, y la línea
+del tiempo de muertes por estado antes del 2020-04-01. Cuando
+están presentes, los archivos "datos\_mapa.csv", y
+"tabla\_casos\_confirmados.csv" toman precendencia.
+
 Todos los archivos PDF son descargados diariamente de la
 [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia) en el siguiente URL:
 https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diario-238449
