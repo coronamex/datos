@@ -1,0 +1,33 @@
+estado,casos_acumulados,negativos_acumulados,sospechosos,muertes_acumuladas
+Aguascalientes,53,603,91,0
+Baja California,258,710,530,17
+Baja California Sur,85,329,333,2
+Campeche,15,67,7,1
+Coahuila,143,621,932,7
+Colima,7,82,24,0
+Chiapas,38,202,69,1
+Chihuahua,54,187,101,12
+Ciudad de México,1040,3505,2188,46
+Durango,16,225,113,4
+Guanajuato,78,1308,254,1
+Guerrero,54,238,141,6
+Hidalgo,51,353,28,7
+Jalisco,144,1980,839,9
+México,470,1661,758,16
+Michoacán,46,366,170,7
+Morelos,35,223,74,7
+Nayarit,19,133,40,3
+Nuevo León,110,1429,997,5
+Oaxaca,41,279,76,2
+Puebla,214,554,399,15
+Querétaro,55,384,61,3
+Quintana Roo,163,355,234,13
+San Luis Potosí,48,660,165,4
+Sinaloa,171,472,376,18
+Sonora,55,361,181,5
+Tabasco,134,489,317,9
+Tamaulipas,48,328,122,3
+Tlaxcala,34,242,96,1
+Veracruz,63,750,406,3
+Yucatán,88,427,129,4
+Zacatecas,14,226,49,2
