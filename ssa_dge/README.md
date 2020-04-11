@@ -7,15 +7,19 @@ del 2020-04-01 en cualquier formato por favor avísame en
 
 ## Archivos principales
 
+* **datos_mapa.csv**: Vínculo a tabla más reciente con casos confirmados,
+sospechosos, negativos y muertes por estado en formato CSV.
 * **reportes_diarios.csv**: Esta tabla contiene los números
 agregados nacionales para casos positivos, sospechosos y muertes.
 Los números son tomados del comunicado técnico diario desde el
 2020-02-27.
+* **serie_tiempo_estados_casos.csv**: Esta tabla contiene el número
+de casos nuevos y casos acumulados por estado por fecha. Los números
+se calculan a partir de las tablas de casos positivos confirmados
+del InDRE desde 2020-03-14.
 * **tabla_casos_confirmados.csv**: Vínculo a la a tabla de casos
 conformados como positivos por el InDRE en la fecha más
 reciente disponible en formato CSV.
-* **datos_mapa.csv**: Vínculo a tabla más reciente con casos confirmados,
-sospechosos, negativos y muertes por estado en formato CSV.
 
 ## Subdirectorios por fecha
 
@@ -25,20 +29,21 @@ Por cada fecha hay un *Comunicado Técnico Diario* en
 formato PDF suele tener un nombre de la forma
 "Comunicado\_Tecnico\_Diario\_COVID-19\_*YYYY.MM.DD*.pdf"
 
-A partir del 2020-03-25 también hay dos archivos PDF con
-las tablas de casos positivos y la tabla de casos sospechosos.
-Los archivos suelen tener nombres de la forma:
-"Tabla\_casos\_positivos\_COVID-19\_resultado\_InDRE\_*YYYY.MM.DD*.pdf", y
-"Tabla\_casos\_sospechosos\_COVID-19\_*YYYY.MM.DD*.pdf" respectivamente.
+A partir del 2020-03-14 hay un archivo PDF con
+las tabla de casos positivos confirmados del InDRE. El archivo suelen
+tener nombre de la forma:
+"Tabla\_casos\_positivos\_COVID-19\_resultado\_InDRE\_*YYYY.MM.DD*.pdf",
+y hay un archivo CSV con el nombre "tabla\_casos\_confirmados.csv" con
+los datos del archivo del InDRE.
 
-A partir del 2020-03-25, la tabla de caos positivos del InDRE
-ha sido convertida a formato CSV con el nombre:
-tabla\_casos\_confirmados.csv
+A partir del 2020-03-16 también hay un archivo PDF con la tablas de casos
+sospechosos. El archivo suele tener nombre de la forma:
+"Tabla\_casos\_sospechosos\_COVID-19\_*YYYY.MM.DD*.pdf".
 
-A partir del 2020-04-01 se descarga una tabla en formato json del
-[mapa interactivo](http://ncov.sinave.gob.mx/mapa.aspx)
-de la Dirección General de Epidemiología.
-Los archivos se llaman "datos\_mapa.json". Además la tabla es convertida
+A partir del 2020-04-01 se descarga una tabla en formato JSON del
+[mapa interactivo](https://ncov.sinave.gob.mx/mapa.aspx)
+de la Dirección General de Epidemiología. Los archivos se llaman 
+"datos\_mapa.json". Además la tabla es convertida
 a formato CSV y llamada "datos\_mapa.csv".
 
 Todos los archivos PDF son descargados diariamente de la
@@ -47,11 +52,15 @@ https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diar
 
 ## Compilación de datos
 
-Los comunicados técnicos diarios desde 2020-02-27 fueron compilados por Sur Herrera Paredes.
+Los comunicados técnicos diarios desde 2020-02-27 fueron compilados
+por Sur Herrera Paredes.
 
-Las tablas de casos positivos y sospechosos desde 2020-03-25 fueron compilados por Sur Herrera Paredes.
+Las tablas de casos positivos y sospechosos desde 2020-03-25 fueron
+compiladas por Sur Herrera Paredes.
 
-### Otros contribuyentes:
+### Otras fuentes
+
+Algunos datos fueron recolectados de otras fuentes que ya los habían compilado.
 
 * Guillermo de Anda-Jáuregui (https://github.com/guillermodeandajauregui/datos_covid19.mx).
 * Repositorio [mexicovid19/Mexico-datos](https://github.com/mexicovid19/Mexico-datos).
