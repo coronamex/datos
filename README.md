@@ -13,10 +13,12 @@ Los siguientes directorios están presentes:
 * **demograficos**: Datos demográficos de diversas fuentes. Revizar el
 [README](demograficos/README.md) para más detalles.
 * **src**: Código para procesar datos.
-* **ssa_dge**: Datos libreados por la [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia)
+* **ssa_dge**: Datos liberados por la [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia)
 de la [Secretaría de Salud](https://www.gob.mx/salud) a través de sus comunicados
 técnicos diarios así como las tablas de casos confirmados y casos sospechosos
-liberados diariamente.
+liberados diariamente, y su
+[mapa interactivo](https://ncov.sinave.gob.mx/mapa.aspx).
+* **util**: Archivos con utilidades para el código.
 
 ## Acerca de este repositorio
 

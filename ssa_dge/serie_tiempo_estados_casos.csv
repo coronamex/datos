@@ -1,0 +1,807 @@
+estado,casos_acumulados,fecha,casos_nuevos
+Aguascalientes,1,2020-03-15,1
+Aguascalientes,1,2020-03-16,0
+Aguascalientes,1,2020-03-17,0
+Aguascalientes,1,2020-03-18,0
+Aguascalientes,4,2020-03-19,3
+Aguascalientes,4,2020-03-20,0
+Aguascalientes,4,2020-03-21,0
+Aguascalientes,4,2020-03-22,0
+Aguascalientes,6,2020-03-23,2
+Aguascalientes,6,2020-03-24,0
+Aguascalientes,12,2020-03-25,6
+Aguascalientes,13,2020-03-26,1
+Aguascalientes,19,2020-03-27,6
+Aguascalientes,19,2020-03-28,0
+Aguascalientes,24,2020-03-29,5
+Aguascalientes,24,2020-03-30,0
+Aguascalientes,36,2020-03-31,12
+Aguascalientes,36,2020-04-01,0
+Aguascalientes,47,2020-04-02,11
+Aguascalientes,48,2020-04-03,1
+Aguascalientes,49,2020-04-04,1
+Aguascalientes,49,2020-04-05,0
+Aguascalientes,49,2020-04-06,0
+Aguascalientes,53,2020-04-07,4
+Aguascalientes,53,2020-04-08,0
+Aguascalientes,53,2020-04-09,0
+Aguascalientes,53,2020-04-10,0
+Baja California,2,2020-03-18,2
+Baja California,2,2020-03-19,0
+Baja California,4,2020-03-20,2
+Baja California,8,2020-03-21,4
+Baja California,11,2020-03-22,3
+Baja California,13,2020-03-23,2
+Baja California,13,2020-03-24,0
+Baja California,14,2020-03-25,1
+Baja California,19,2020-03-26,5
+Baja California,20,2020-03-27,1
+Baja California,20,2020-03-28,0
+Baja California,23,2020-03-29,3
+Baja California,27,2020-03-30,4
+Baja California,35,2020-03-31,8
+Baja California,37,2020-04-01,2
+Baja California,40,2020-04-02,3
+Baja California,52,2020-04-03,12
+Baja California,54,2020-04-04,2
+Baja California,69,2020-04-05,15
+Baja California,111,2020-04-06,42
+Baja California,136,2020-04-07,25
+Baja California,225,2020-04-08,89
+Baja California,239,2020-04-09,14
+Baja California,258,2020-04-10,19
+Baja California Sur,1,2020-03-21,1
+Baja California Sur,1,2020-03-22,0
+Baja California Sur,2,2020-03-23,1
+Baja California Sur,2,2020-03-24,0
+Baja California Sur,5,2020-03-25,3
+Baja California Sur,7,2020-03-26,2
+Baja California Sur,9,2020-03-27,2
+Baja California Sur,9,2020-03-28,0
+Baja California Sur,11,2020-03-29,2
+Baja California Sur,13,2020-03-30,2
+Baja California Sur,17,2020-03-31,4
+Baja California Sur,18,2020-04-01,1
+Baja California Sur,19,2020-04-02,1
+Baja California Sur,21,2020-04-03,2
+Baja California Sur,27,2020-04-04,6
+Baja California Sur,28,2020-04-05,1
+Baja California Sur,54,2020-04-06,26
+Baja California Sur,56,2020-04-07,2
+Baja California Sur,68,2020-04-08,12
+Baja California Sur,68,2020-04-09,0
+Baja California Sur,85,2020-04-10,17
+Campeche,1,2020-03-22,1
+Campeche,2,2020-03-23,1
+Campeche,2,2020-03-24,0
+Campeche,2,2020-03-25,0
+Campeche,2,2020-03-26,0
+Campeche,2,2020-03-27,0
+Campeche,3,2020-03-28,1
+Campeche,3,2020-03-29,0
+Campeche,3,2020-03-30,0
+Campeche,5,2020-03-31,2
+Campeche,5,2020-04-01,0
+Campeche,5,2020-04-02,0
+Campeche,6,2020-04-03,1
+Campeche,8,2020-04-04,2
+Campeche,8,2020-04-05,0
+Campeche,9,2020-04-06,1
+Campeche,14,2020-04-07,5
+Campeche,14,2020-04-08,0
+Campeche,14,2020-04-09,0
+Campeche,15,2020-04-10,1
+Ciudad de México,17,2020-03-14,17
+Ciudad de México,18,2020-03-15,1
+Ciudad de México,21,2020-03-16,3
+Ciudad de México,21,2020-03-17,0
+Ciudad de México,24,2020-03-18,3
+Ciudad de México,31,2020-03-19,7
+Ciudad de México,31,2020-03-20,0
+Ciudad de México,45,2020-03-21,14
+Ciudad de México,56,2020-03-22,11
+Ciudad de México,60,2020-03-23,4
+Ciudad de México,66,2020-03-24,6
+Ciudad de México,82,2020-03-25,16
+Ciudad de México,83,2020-03-26,1
+Ciudad de México,107,2020-03-27,24
+Ciudad de México,177,2020-03-28,70
+Ciudad de México,196,2020-03-29,19
+Ciudad de México,205,2020-03-30,9
+Ciudad de México,234,2020-03-31,29
+Ciudad de México,296,2020-04-01,62
+Ciudad de México,327,2020-04-02,31
+Ciudad de México,384,2020-04-03,57
+Ciudad de México,469,2020-04-04,85
+Ciudad de México,560,2020-04-05,91
+Ciudad de México,609,2020-04-06,49
+Ciudad de México,723,2020-04-07,114
+Ciudad de México,855,2020-04-08,132
+Ciudad de México,909,2020-04-09,54
+Ciudad de México,1040,2020-04-10,131
+Coahuila,1,2020-03-14,1
+Coahuila,1,2020-03-15,0
+Coahuila,1,2020-03-16,0
+Coahuila,1,2020-03-17,0
+Coahuila,1,2020-03-18,0
+Coahuila,1,2020-03-19,0
+Coahuila,1,2020-03-20,0
+Coahuila,3,2020-03-21,2
+Coahuila,10,2020-03-22,7
+Coahuila,12,2020-03-23,2
+Coahuila,12,2020-03-24,0
+Coahuila,12,2020-03-25,0
+Coahuila,13,2020-03-26,1
+Coahuila,14,2020-03-27,1
+Coahuila,15,2020-03-28,1
+Coahuila,32,2020-03-29,17
+Coahuila,39,2020-03-30,7
+Coahuila,44,2020-03-31,5
+Coahuila,57,2020-04-01,13
+Coahuila,62,2020-04-02,5
+Coahuila,70,2020-04-03,8
+Coahuila,72,2020-04-04,2
+Coahuila,82,2020-04-05,10
+Coahuila,102,2020-04-06,20
+Coahuila,109,2020-04-07,7
+Coahuila,122,2020-04-08,13
+Coahuila,129,2020-04-09,7
+Coahuila,143,2020-04-10,14
+Colima,1,2020-03-18,1
+Colima,1,2020-03-19,0
+Colima,1,2020-03-20,0
+Colima,2,2020-03-21,1
+Colima,2,2020-03-22,0
+Colima,2,2020-03-23,0
+Colima,2,2020-03-24,0
+Colima,2,2020-03-25,0
+Colima,2,2020-03-26,0
+Colima,2,2020-03-27,0
+Colima,2,2020-03-28,0
+Colima,2,2020-03-29,0
+Colima,2,2020-03-30,0
+Colima,2,2020-03-31,0
+Colima,3,2020-04-01,1
+Colima,3,2020-04-02,0
+Colima,4,2020-04-03,1
+Colima,4,2020-04-04,0
+Colima,4,2020-04-05,0
+Colima,4,2020-04-06,0
+Colima,5,2020-04-07,1
+Colima,7,2020-04-08,2
+Colima,7,2020-04-09,0
+Colima,7,2020-04-10,0
+Chiapas,1,2020-03-14,1
+Chiapas,1,2020-03-15,0
+Chiapas,1,2020-03-16,0
+Chiapas,1,2020-03-17,0
+Chiapas,1,2020-03-18,0
+Chiapas,2,2020-03-19,1
+Chiapas,2,2020-03-20,0
+Chiapas,2,2020-03-21,0
+Chiapas,2,2020-03-22,0
+Chiapas,2,2020-03-23,0
+Chiapas,2,2020-03-24,0
+Chiapas,4,2020-03-25,2
+Chiapas,4,2020-03-26,0
+Chiapas,7,2020-03-27,3
+Chiapas,6,2020-03-28,-1
+Chiapas,10,2020-03-29,4
+Chiapas,11,2020-03-30,1
+Chiapas,13,2020-03-31,2
+Chiapas,14,2020-04-01,1
+Chiapas,15,2020-04-02,1
+Chiapas,18,2020-04-03,3
+Chiapas,19,2020-04-04,1
+Chiapas,25,2020-04-05,6
+Chiapas,26,2020-04-06,1
+Chiapas,28,2020-04-07,2
+Chiapas,32,2020-04-08,4
+Chiapas,34,2020-04-09,2
+Chiapas,38,2020-04-10,4
+Chihuahua,1,2020-03-17,1
+Chihuahua,1,2020-03-18,0
+Chihuahua,1,2020-03-19,0
+Chihuahua,2,2020-03-20,1
+Chihuahua,2,2020-03-21,0
+Chihuahua,5,2020-03-22,3
+Chihuahua,5,2020-03-23,0
+Chihuahua,6,2020-03-24,1
+Chihuahua,6,2020-03-25,0
+Chihuahua,6,2020-03-26,0
+Chihuahua,6,2020-03-27,0
+Chihuahua,6,2020-03-28,0
+Chihuahua,6,2020-03-29,0
+Chihuahua,6,2020-03-30,0
+Chihuahua,7,2020-03-31,1
+Chihuahua,11,2020-04-01,4
+Chihuahua,11,2020-04-02,0
+Chihuahua,12,2020-04-03,1
+Chihuahua,13,2020-04-04,1
+Chihuahua,15,2020-04-05,2
+Chihuahua,22,2020-04-06,7
+Chihuahua,22,2020-04-07,0
+Chihuahua,29,2020-04-08,7
+Chihuahua,42,2020-04-09,13
+Chihuahua,54,2020-04-10,12
+Durango,1,2020-03-14,1
+Durango,1,2020-03-15,0
+Durango,3,2020-03-16,2
+Durango,3,2020-03-17,0
+Durango,3,2020-03-18,0
+Durango,3,2020-03-19,0
+Durango,4,2020-03-20,1
+Durango,5,2020-03-21,1
+Durango,5,2020-03-22,0
+Durango,5,2020-03-23,0
+Durango,5,2020-03-24,0
+Durango,5,2020-03-25,0
+Durango,5,2020-03-26,0
+Durango,7,2020-03-27,2
+Durango,7,2020-03-28,0
+Durango,7,2020-03-29,0
+Durango,7,2020-03-30,0
+Durango,7,2020-03-31,0
+Durango,7,2020-04-01,0
+Durango,8,2020-04-02,1
+Durango,8,2020-04-03,0
+Durango,10,2020-04-04,2
+Durango,12,2020-04-05,2
+Durango,12,2020-04-06,0
+Durango,15,2020-04-07,3
+Durango,15,2020-04-08,0
+Durango,16,2020-04-09,1
+Durango,16,2020-04-10,0
+Guanajuato,1,2020-03-17,1
+Guanajuato,4,2020-03-18,3
+Guanajuato,4,2020-03-19,0
+Guanajuato,4,2020-03-20,0
+Guanajuato,4,2020-03-21,0
+Guanajuato,4,2020-03-22,0
+Guanajuato,7,2020-03-23,3
+Guanajuato,12,2020-03-24,5
+Guanajuato,19,2020-03-25,7
+Guanajuato,23,2020-03-26,4
+Guanajuato,31,2020-03-27,8
+Guanajuato,37,2020-03-28,6
+Guanajuato,37,2020-03-29,0
+Guanajuato,43,2020-03-30,6
+Guanajuato,46,2020-03-31,3
+Guanajuato,49,2020-04-01,3
+Guanajuato,50,2020-04-02,1
+Guanajuato,52,2020-04-03,2
+Guanajuato,53,2020-04-04,1
+Guanajuato,53,2020-04-05,0
+Guanajuato,58,2020-04-06,5
+Guanajuato,61,2020-04-07,3
+Guanajuato,67,2020-04-08,6
+Guanajuato,71,2020-04-09,4
+Guanajuato,78,2020-04-10,7
+Guerrero,2,2020-03-16,2
+Guerrero,2,2020-03-17,0
+Guerrero,2,2020-03-18,0
+Guerrero,4,2020-03-19,2
+Guerrero,4,2020-03-20,0
+Guerrero,4,2020-03-21,0
+Guerrero,4,2020-03-22,0
+Guerrero,5,2020-03-23,1
+Guerrero,6,2020-03-24,1
+Guerrero,7,2020-03-25,1
+Guerrero,7,2020-03-26,0
+Guerrero,7,2020-03-27,0
+Guerrero,10,2020-03-28,3
+Guerrero,13,2020-03-29,3
+Guerrero,13,2020-03-30,0
+Guerrero,15,2020-03-31,2
+Guerrero,17,2020-04-01,2
+Guerrero,22,2020-04-02,5
+Guerrero,24,2020-04-03,2
+Guerrero,25,2020-04-04,1
+Guerrero,30,2020-04-05,5
+Guerrero,32,2020-04-06,2
+Guerrero,37,2020-04-07,5
+Guerrero,47,2020-04-08,10
+Guerrero,49,2020-04-09,2
+Guerrero,54,2020-04-10,5
+Hidalgo,2,2020-03-19,2
+Hidalgo,2,2020-03-20,0
+Hidalgo,3,2020-03-21,1
+Hidalgo,5,2020-03-22,2
+Hidalgo,7,2020-03-23,2
+Hidalgo,7,2020-03-24,0
+Hidalgo,7,2020-03-25,0
+Hidalgo,12,2020-03-26,5
+Hidalgo,12,2020-03-27,0
+Hidalgo,12,2020-03-28,0
+Hidalgo,17,2020-03-29,5
+Hidalgo,17,2020-03-30,0
+Hidalgo,19,2020-03-31,2
+Hidalgo,21,2020-04-01,2
+Hidalgo,26,2020-04-02,5
+Hidalgo,30,2020-04-03,4
+Hidalgo,32,2020-04-04,2
+Hidalgo,34,2020-04-05,2
+Hidalgo,35,2020-04-06,1
+Hidalgo,41,2020-04-07,6
+Hidalgo,46,2020-04-08,5
+Hidalgo,47,2020-04-09,1
+Hidalgo,51,2020-04-10,4
+Jalisco,2,2020-03-14,2
+Jalisco,2,2020-03-15,0
+Jalisco,2,2020-03-16,0
+Jalisco,5,2020-03-17,3
+Jalisco,6,2020-03-18,1
+Jalisco,22,2020-03-19,16
+Jalisco,28,2020-03-20,6
+Jalisco,32,2020-03-21,4
+Jalisco,41,2020-03-22,9
+Jalisco,46,2020-03-23,5
+Jalisco,46,2020-03-24,0
+Jalisco,46,2020-03-25,0
+Jalisco,64,2020-03-26,18
+Jalisco,77,2020-03-27,13
+Jalisco,82,2020-03-28,5
+Jalisco,83,2020-03-29,1
+Jalisco,90,2020-03-30,7
+Jalisco,94,2020-03-31,4
+Jalisco,99,2020-04-01,5
+Jalisco,104,2020-04-02,5
+Jalisco,116,2020-04-03,12
+Jalisco,120,2020-04-04,4
+Jalisco,123,2020-04-05,3
+Jalisco,126,2020-04-06,3
+Jalisco,135,2020-04-07,9
+Jalisco,139,2020-04-08,4
+Jalisco,139,2020-04-09,0
+Jalisco,144,2020-04-10,5
+México,3,2020-03-14,3
+México,4,2020-03-15,1
+México,9,2020-03-16,5
+México,10,2020-03-17,1
+México,10,2020-03-18,0
+México,10,2020-03-19,0
+México,14,2020-03-20,4
+México,14,2020-03-21,0
+México,22,2020-03-22,8
+México,22,2020-03-23,0
+México,22,2020-03-24,0
+México,26,2020-03-25,4
+México,46,2020-03-26,20
+México,70,2020-03-27,24
+México,85,2020-03-28,15
+México,119,2020-03-29,34
+México,136,2020-03-30,17
+México,149,2020-03-31,13
+México,157,2020-04-01,8
+México,171,2020-04-02,14
+México,177,2020-04-03,6
+México,180,2020-04-04,3
+México,204,2020-04-05,24
+México,261,2020-04-06,57
+México,320,2020-04-07,59
+México,354,2020-04-08,34
+México,399,2020-04-09,45
+México,470,2020-04-10,71
+Michoacán,3,2020-03-22,3
+Michoacán,7,2020-03-23,4
+Michoacán,8,2020-03-24,1
+Michoacán,10,2020-03-25,2
+Michoacán,11,2020-03-26,1
+Michoacán,16,2020-03-27,5
+Michoacán,17,2020-03-28,1
+Michoacán,17,2020-03-29,0
+Michoacán,17,2020-03-30,0
+Michoacán,21,2020-03-31,4
+Michoacán,24,2020-04-01,3
+Michoacán,24,2020-04-02,0
+Michoacán,24,2020-04-03,0
+Michoacán,29,2020-04-04,5
+Michoacán,30,2020-04-05,1
+Michoacán,33,2020-04-06,3
+Michoacán,34,2020-04-07,1
+Michoacán,36,2020-04-08,2
+Michoacán,46,2020-04-09,10
+Michoacán,46,2020-04-10,0
+Morelos,2,2020-03-20,2
+Morelos,2,2020-03-21,0
+Morelos,2,2020-03-22,0
+Morelos,2,2020-03-23,0
+Morelos,2,2020-03-24,0
+Morelos,2,2020-03-25,0
+Morelos,4,2020-03-26,2
+Morelos,4,2020-03-27,0
+Morelos,4,2020-03-28,0
+Morelos,6,2020-03-29,2
+Morelos,6,2020-03-30,0
+Morelos,7,2020-03-31,1
+Morelos,9,2020-04-01,2
+Morelos,9,2020-04-02,0
+Morelos,12,2020-04-03,3
+Morelos,14,2020-04-04,2
+Morelos,15,2020-04-05,1
+Morelos,17,2020-04-06,2
+Morelos,24,2020-04-07,7
+Morelos,26,2020-04-08,2
+Morelos,35,2020-04-09,9
+Morelos,35,2020-04-10,0
+Nayarit,1,2020-03-21,1
+Nayarit,1,2020-03-22,0
+Nayarit,1,2020-03-23,0
+Nayarit,1,2020-03-24,0
+Nayarit,4,2020-03-25,3
+Nayarit,4,2020-03-26,0
+Nayarit,5,2020-03-27,1
+Nayarit,5,2020-03-28,0
+Nayarit,5,2020-03-29,0
+Nayarit,6,2020-03-30,1
+Nayarit,6,2020-03-31,0
+Nayarit,8,2020-04-01,2
+Nayarit,8,2020-04-02,0
+Nayarit,8,2020-04-03,0
+Nayarit,9,2020-04-04,1
+Nayarit,9,2020-04-05,0
+Nayarit,10,2020-04-06,1
+Nayarit,10,2020-04-07,0
+Nayarit,12,2020-04-08,2
+Nayarit,16,2020-04-09,4
+Nayarit,19,2020-04-10,3
+Nuevo León,3,2020-03-14,3
+Nuevo León,5,2020-03-15,2
+Nuevo León,13,2020-03-16,8
+Nuevo León,14,2020-03-17,1
+Nuevo León,19,2020-03-18,5
+Nuevo León,19,2020-03-19,0
+Nuevo León,29,2020-03-20,10
+Nuevo León,32,2020-03-21,3
+Nuevo León,35,2020-03-22,3
+Nuevo León,40,2020-03-23,5
+Nuevo León,52,2020-03-24,12
+Nuevo León,52,2020-03-25,0
+Nuevo León,57,2020-03-26,5
+Nuevo León,64,2020-03-27,7
+Nuevo León,64,2020-03-28,0
+Nuevo León,67,2020-03-29,3
+Nuevo León,75,2020-03-30,8
+Nuevo León,76,2020-03-31,1
+Nuevo León,78,2020-04-01,2
+Nuevo León,84,2020-04-02,6
+Nuevo León,85,2020-04-03,1
+Nuevo León,88,2020-04-04,3
+Nuevo León,91,2020-04-05,3
+Nuevo León,93,2020-04-06,2
+Nuevo León,93,2020-04-07,0
+Nuevo León,98,2020-04-08,5
+Nuevo León,107,2020-04-09,9
+Nuevo León,110,2020-04-10,3
+Oaxaca,1,2020-03-14,1
+Oaxaca,2,2020-03-15,1
+Oaxaca,2,2020-03-16,0
+Oaxaca,2,2020-03-17,0
+Oaxaca,2,2020-03-18,0
+Oaxaca,2,2020-03-19,0
+Oaxaca,2,2020-03-20,0
+Oaxaca,2,2020-03-21,0
+Oaxaca,3,2020-03-22,1
+Oaxaca,4,2020-03-23,1
+Oaxaca,4,2020-03-24,0
+Oaxaca,7,2020-03-25,3
+Oaxaca,8,2020-03-26,1
+Oaxaca,11,2020-03-27,3
+Oaxaca,12,2020-03-28,1
+Oaxaca,14,2020-03-29,2
+Oaxaca,14,2020-03-30,0
+Oaxaca,14,2020-03-31,0
+Oaxaca,22,2020-04-01,8
+Oaxaca,22,2020-04-02,0
+Oaxaca,22,2020-04-03,0
+Oaxaca,22,2020-04-04,0
+Oaxaca,25,2020-04-05,3
+Oaxaca,27,2020-04-06,2
+Oaxaca,35,2020-04-07,8
+Oaxaca,37,2020-04-08,2
+Oaxaca,40,2020-04-09,3
+Oaxaca,41,2020-04-10,1
+Puebla,3,2020-03-14,3
+Puebla,6,2020-03-15,3
+Puebla,8,2020-03-16,2
+Puebla,9,2020-03-17,1
+Puebla,9,2020-03-18,0
+Puebla,11,2020-03-19,2
+Puebla,14,2020-03-20,3
+Puebla,16,2020-03-21,2
+Puebla,16,2020-03-22,0
+Puebla,16,2020-03-23,0
+Puebla,22,2020-03-24,6
+Puebla,34,2020-03-25,12
+Puebla,45,2020-03-26,11
+Puebla,51,2020-03-27,6
+Puebla,52,2020-03-28,1
+Puebla,66,2020-03-29,14
+Puebla,76,2020-03-30,10
+Puebla,81,2020-03-31,5
+Puebla,97,2020-04-01,16
+Puebla,100,2020-04-02,3
+Puebla,109,2020-04-03,9
+Puebla,125,2020-04-04,16
+Puebla,147,2020-04-05,22
+Puebla,156,2020-04-06,9
+Puebla,179,2020-04-07,23
+Puebla,183,2020-04-08,4
+Puebla,198,2020-04-09,15
+Puebla,214,2020-04-10,16
+Querétaro,4,2020-03-14,4
+Querétaro,6,2020-03-15,2
+Querétaro,7,2020-03-16,1
+Querétaro,7,2020-03-17,0
+Querétaro,7,2020-03-18,0
+Querétaro,9,2020-03-19,2
+Querétaro,11,2020-03-20,2
+Querétaro,14,2020-03-21,3
+Querétaro,14,2020-03-22,0
+Querétaro,16,2020-03-23,2
+Querétaro,16,2020-03-24,0
+Querétaro,18,2020-03-25,2
+Querétaro,21,2020-03-26,3
+Querétaro,23,2020-03-27,2
+Querétaro,25,2020-03-28,2
+Querétaro,26,2020-03-29,1
+Querétaro,27,2020-03-30,1
+Querétaro,29,2020-03-31,2
+Querétaro,29,2020-04-01,0
+Querétaro,32,2020-04-02,3
+Querétaro,35,2020-04-03,3
+Querétaro,36,2020-04-04,1
+Querétaro,38,2020-04-05,2
+Querétaro,40,2020-04-06,2
+Querétaro,45,2020-04-07,5
+Querétaro,47,2020-04-08,2
+Querétaro,50,2020-04-09,3
+Querétaro,55,2020-04-10,5
+Quintana Roo,1,2020-03-14,1
+Quintana Roo,1,2020-03-15,0
+Quintana Roo,4,2020-03-16,3
+Quintana Roo,4,2020-03-17,0
+Quintana Roo,6,2020-03-18,2
+Quintana Roo,6,2020-03-19,0
+Quintana Roo,11,2020-03-20,5
+Quintana Roo,12,2020-03-21,1
+Quintana Roo,12,2020-03-22,0
+Quintana Roo,21,2020-03-23,9
+Quintana Roo,22,2020-03-24,1
+Quintana Roo,22,2020-03-25,0
+Quintana Roo,29,2020-03-26,7
+Quintana Roo,29,2020-03-27,0
+Quintana Roo,33,2020-03-28,4
+Quintana Roo,38,2020-03-29,5
+Quintana Roo,43,2020-03-30,5
+Quintana Roo,47,2020-03-31,4
+Quintana Roo,51,2020-04-01,4
+Quintana Roo,56,2020-04-02,5
+Quintana Roo,65,2020-04-03,9
+Quintana Roo,75,2020-04-04,10
+Quintana Roo,86,2020-04-05,11
+Quintana Roo,115,2020-04-06,29
+Quintana Roo,135,2020-04-07,20
+Quintana Roo,143,2020-04-08,8
+Quintana Roo,159,2020-04-09,16
+Quintana Roo,163,2020-04-10,4
+San Luis Potosí,1,2020-03-14,1
+San Luis Potosí,2,2020-03-15,1
+San Luis Potosí,2,2020-03-16,0
+San Luis Potosí,2,2020-03-17,0
+San Luis Potosí,3,2020-03-18,1
+San Luis Potosí,7,2020-03-19,4
+San Luis Potosí,7,2020-03-20,0
+San Luis Potosí,9,2020-03-21,2
+San Luis Potosí,12,2020-03-22,3
+San Luis Potosí,16,2020-03-23,4
+San Luis Potosí,16,2020-03-24,0
+San Luis Potosí,17,2020-03-25,1
+San Luis Potosí,18,2020-03-26,1
+San Luis Potosí,19,2020-03-27,1
+San Luis Potosí,20,2020-03-28,1
+San Luis Potosí,24,2020-03-29,4
+San Luis Potosí,25,2020-03-30,1
+San Luis Potosí,25,2020-03-31,0
+San Luis Potosí,31,2020-04-01,6
+San Luis Potosí,33,2020-04-02,2
+San Luis Potosí,35,2020-04-03,2
+San Luis Potosí,35,2020-04-04,0
+San Luis Potosí,37,2020-04-05,2
+San Luis Potosí,37,2020-04-06,0
+San Luis Potosí,41,2020-04-07,4
+San Luis Potosí,43,2020-04-08,2
+San Luis Potosí,47,2020-04-09,4
+San Luis Potosí,48,2020-04-10,1
+Sinaloa,1,2020-03-14,1
+Sinaloa,2,2020-03-15,1
+Sinaloa,2,2020-03-16,0
+Sinaloa,2,2020-03-17,0
+Sinaloa,2,2020-03-18,0
+Sinaloa,3,2020-03-19,1
+Sinaloa,3,2020-03-20,0
+Sinaloa,3,2020-03-21,0
+Sinaloa,4,2020-03-22,1
+Sinaloa,4,2020-03-23,0
+Sinaloa,4,2020-03-24,0
+Sinaloa,4,2020-03-25,0
+Sinaloa,8,2020-03-26,4
+Sinaloa,9,2020-03-27,1
+Sinaloa,14,2020-03-28,5
+Sinaloa,19,2020-03-29,5
+Sinaloa,24,2020-03-30,5
+Sinaloa,27,2020-03-31,3
+Sinaloa,32,2020-04-01,5
+Sinaloa,42,2020-04-02,10
+Sinaloa,51,2020-04-03,9
+Sinaloa,74,2020-04-04,23
+Sinaloa,90,2020-04-05,16
+Sinaloa,97,2020-04-06,7
+Sinaloa,111,2020-04-07,14
+Sinaloa,125,2020-04-08,14
+Sinaloa,138,2020-04-09,13
+Sinaloa,171,2020-04-10,33
+Sonora,1,2020-03-17,1
+Sonora,1,2020-03-18,0
+Sonora,2,2020-03-19,1
+Sonora,2,2020-03-20,0
+Sonora,2,2020-03-21,0
+Sonora,4,2020-03-22,2
+Sonora,4,2020-03-23,0
+Sonora,4,2020-03-24,0
+Sonora,4,2020-03-25,0
+Sonora,7,2020-03-26,3
+Sonora,8,2020-03-27,1
+Sonora,10,2020-03-28,2
+Sonora,14,2020-03-29,4
+Sonora,17,2020-03-30,3
+Sonora,17,2020-03-31,0
+Sonora,18,2020-04-01,1
+Sonora,21,2020-04-02,3
+Sonora,22,2020-04-03,1
+Sonora,27,2020-04-04,5
+Sonora,28,2020-04-05,1
+Sonora,30,2020-04-06,2
+Sonora,35,2020-04-07,5
+Sonora,46,2020-04-08,11
+Sonora,48,2020-04-09,2
+Sonora,55,2020-04-10,7
+Tabasco,1,2020-03-18,1
+Tabasco,1,2020-03-19,0
+Tabasco,2,2020-03-20,1
+Tabasco,4,2020-03-21,2
+Tabasco,5,2020-03-22,1
+Tabasco,6,2020-03-23,1
+Tabasco,6,2020-03-24,0
+Tabasco,6,2020-03-25,0
+Tabasco,17,2020-03-26,11
+Tabasco,21,2020-03-27,4
+Tabasco,27,2020-03-28,6
+Tabasco,33,2020-03-29,6
+Tabasco,38,2020-03-30,5
+Tabasco,48,2020-03-31,10
+Tabasco,52,2020-04-01,4
+Tabasco,62,2020-04-02,10
+Tabasco,73,2020-04-03,11
+Tabasco,83,2020-04-04,10
+Tabasco,97,2020-04-05,14
+Tabasco,107,2020-04-06,10
+Tabasco,108,2020-04-07,1
+Tabasco,112,2020-04-08,4
+Tabasco,113,2020-04-09,1
+Tabasco,134,2020-04-10,21
+Tamaulipas,1,2020-03-17,1
+Tamaulipas,2,2020-03-18,1
+Tamaulipas,2,2020-03-19,0
+Tamaulipas,2,2020-03-20,0
+Tamaulipas,3,2020-03-21,1
+Tamaulipas,4,2020-03-22,1
+Tamaulipas,5,2020-03-23,1
+Tamaulipas,5,2020-03-24,0
+Tamaulipas,6,2020-03-25,1
+Tamaulipas,6,2020-03-26,0
+Tamaulipas,6,2020-03-27,0
+Tamaulipas,6,2020-03-28,0
+Tamaulipas,7,2020-03-29,1
+Tamaulipas,8,2020-03-30,1
+Tamaulipas,8,2020-03-31,0
+Tamaulipas,9,2020-04-01,1
+Tamaulipas,13,2020-04-02,4
+Tamaulipas,16,2020-04-03,3
+Tamaulipas,20,2020-04-04,4
+Tamaulipas,26,2020-04-05,6
+Tamaulipas,31,2020-04-06,5
+Tamaulipas,32,2020-04-07,1
+Tamaulipas,43,2020-04-08,11
+Tamaulipas,46,2020-04-09,3
+Tamaulipas,48,2020-04-10,2
+Tlaxcala,1,2020-03-25,1
+Tlaxcala,1,2020-03-26,0
+Tlaxcala,4,2020-03-27,3
+Tlaxcala,4,2020-03-28,0
+Tlaxcala,4,2020-03-29,0
+Tlaxcala,4,2020-03-30,0
+Tlaxcala,4,2020-03-31,0
+Tlaxcala,5,2020-04-01,1
+Tlaxcala,5,2020-04-02,0
+Tlaxcala,8,2020-04-03,3
+Tlaxcala,9,2020-04-04,1
+Tlaxcala,11,2020-04-05,2
+Tlaxcala,14,2020-04-06,3
+Tlaxcala,18,2020-04-07,4
+Tlaxcala,23,2020-04-08,5
+Tlaxcala,29,2020-04-09,6
+Tlaxcala,34,2020-04-10,5
+Veracruz,2,2020-03-18,2
+Veracruz,2,2020-03-19,0
+Veracruz,4,2020-03-20,2
+Veracruz,7,2020-03-21,3
+Veracruz,7,2020-03-22,0
+Veracruz,7,2020-03-23,0
+Veracruz,7,2020-03-24,0
+Veracruz,7,2020-03-25,0
+Veracruz,7,2020-03-26,0
+Veracruz,17,2020-03-27,10
+Veracruz,23,2020-03-28,6
+Veracruz,24,2020-03-29,1
+Veracruz,26,2020-03-30,2
+Veracruz,27,2020-03-31,1
+Veracruz,28,2020-04-01,1
+Veracruz,29,2020-04-02,1
+Veracruz,35,2020-04-03,6
+Veracruz,37,2020-04-04,2
+Veracruz,40,2020-04-05,3
+Veracruz,41,2020-04-06,1
+Veracruz,46,2020-04-07,5
+Veracruz,49,2020-04-08,3
+Veracruz,54,2020-04-09,5
+Veracruz,63,2020-04-10,9
+Yucatán,1,2020-03-14,1
+Yucatán,1,2020-03-15,0
+Yucatán,4,2020-03-16,3
+Yucatán,5,2020-03-17,1
+Yucatán,8,2020-03-18,3
+Yucatán,13,2020-03-19,5
+Yucatán,13,2020-03-20,0
+Yucatán,14,2020-03-21,1
+Yucatán,19,2020-03-22,5
+Yucatán,19,2020-03-23,0
+Yucatán,24,2020-03-24,5
+Yucatán,29,2020-03-25,5
+Yucatán,32,2020-03-26,3
+Yucatán,36,2020-03-27,4
+Yucatán,38,2020-03-28,2
+Yucatán,41,2020-03-29,3
+Yucatán,46,2020-03-30,5
+Yucatán,49,2020-03-31,3
+Yucatán,52,2020-04-01,3
+Yucatán,53,2020-04-02,1
+Yucatán,59,2020-04-03,6
+Yucatán,62,2020-04-04,3
+Yucatán,67,2020-04-05,5
+Yucatán,72,2020-04-06,5
+Yucatán,74,2020-04-07,2
+Yucatán,74,2020-04-08,0
+Yucatán,88,2020-04-09,14
+Yucatán,88,2020-04-10,0
+Zacatecas,1,2020-03-21,1
+Zacatecas,2,2020-03-22,1
+Zacatecas,3,2020-03-23,1
+Zacatecas,3,2020-03-24,0
+Zacatecas,3,2020-03-25,0
+Zacatecas,4,2020-03-26,1
+Zacatecas,4,2020-03-27,0
+Zacatecas,4,2020-03-28,0
+Zacatecas,5,2020-03-29,1
+Zacatecas,6,2020-03-30,1
+Zacatecas,6,2020-03-31,0
+Zacatecas,6,2020-04-01,0
+Zacatecas,7,2020-04-02,1
+Zacatecas,7,2020-04-03,0
+Zacatecas,10,2020-04-04,3
+Zacatecas,10,2020-04-05,0
+Zacatecas,9,2020-04-06,-1
+Zacatecas,10,2020-04-07,1
+Zacatecas,11,2020-04-08,1
+Zacatecas,11,2020-04-09,0
+Zacatecas,14,2020-04-10,3
