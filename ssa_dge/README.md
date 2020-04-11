@@ -34,7 +34,11 @@ las tabla de casos positivos confirmados del InDRE. El archivo suelen
 tener nombre de la forma:
 "Tabla\_casos\_positivos\_COVID-19\_resultado\_InDRE\_*YYYY.MM.DD*.pdf",
 y hay un archivo CSV con el nombre "tabla\_casos\_confirmados.csv" con
-los datos del archivo del InDRE.
+los datos del archivo del InDRE. **NOTA**: A partir del `2020-04-06` la 
+Secretaría de Salud dejó de incluir la fecha de llegada a México de los
+casos confirmados, y a partir del `2020-04-08` la Secretaría de Salud dejó
+de incluir la fecha de llegada a México de los casos con historial de viaje.
+Desde esas fechas, las columnas correspondientes sólo tiene el valor `NA`,
 
 A partir del 2020-03-16 también hay un archivo PDF con la tablas de casos
 sospechosos. El archivo suele tener nombre de la forma:
