@@ -1,6 +1,6 @@
 NO,NOMBRE DE VARIABLE,DESCRIPCIÓN DE VARIABLE,FORMATO O FUENTE
-1,FECHA_ACTUALIZACION,La base de datos se alimenta diariamente, esta variable permite identificar la fecha de la ultima actualizacion.,AAAA-MM-DD
-2,ORIGEN,La vigilancia centinela se realiza a través del sistema de unidades de salud monitoras de enfermedades respiratorias (USMER). Las USMER incluyen unidades médicas del primer, segundo o tercer nivel de atención y también participan como USMER las unidades de tercer nivel que por sus características contribuyen a ampliar el panorama de información epidemiológica, entre ellas las que cuenten con especialidad de neumología, infectología o pediatría. (Categorías en Catalógo Anexo).,CATÁLOGO: ORIGEN                                                              
+1,FECHA_ACTUALIZACION,La base de datos se alimenta diariamente  esta variable permite identificar la fecha de la ultima actualizacion.,AAAA-MM-DD
+2,ORIGEN,La vigilancia centinela se realiza a través del sistema de unidades de salud monitoras de enfermedades respiratorias (USMER). Las USMER incluyen unidades médicas del primer  segundo o tercer nivel de atención y también participan como USMER las unidades de tercer nivel que por sus características contribuyen a ampliar el panorama de información epidemiológica entre ellas las que cuenten con especialidad de neumología infectología o pediatría. (Categorías en Catalógo Anexo).,CATÁLOGO: ORIGEN                                                              
 3,SECTOR,Identifica el tipo de institución del Sistema Nacional de Salud que brindó la atención.,CATÁLOGO: SECTOR                                                               
 4,ENTIDAD_UM,Identifica la entidad donde se ubica la unidad medica que brindó la atención.,CATALÓGO: ENTIDADES
 5,SEXO,Identifica al sexo del paciente.,CATÁLOGO: SEXO                              
@@ -28,8 +28,8 @@ NO,NOMBRE DE VARIABLE,DESCRIPCIÓN DE VARIABLE,FORMATO O FUENTE
 27,RENAL_CRONICA,Identifica si el paciente tiene diagnóstico de insuficiencia renal crónica.,CATÁLOGO: SI_ NO                                                                  
 28,TABAQUISMO,Identifica si el paciente tiene hábito de tabaquismo.,CATÁLOGO: SI_ NO                                                                  
 29,OTRO_CASO,Identifica si el paciente tuvo contacto con algún otro caso diagnósticado con SARS CoV-2,CATÁLOGO: SI_ NO                                                                  
-30,RESULTADO,Identifica el resultado del análisis de la muestra reportado por el  laboratorio de la Red Nacional de Laboratorios de Vigilancia Epidemiológica (INDRE, LESP y LAVE). (Catálogo de resultados diagnósticos anexo).,CATÁLOGO: RESULTADO
+30,RESULTADO,Identifica el resultado del análisis de la muestra reportado por el  laboratorio de la Red Nacional de Laboratorios de Vigilancia Epidemiológica (INDRE LESP y LAVE). (Catálogo de resultados diagnósticos anexo).,CATÁLOGO: RESULTADO
 31,MIGRANTE,Identifica si el paciente es una persona migrante.,CATÁLOGO: SI_ NO                                                                  
-32,PAIS_NACIONALIDAD,Identifica la nacionalidad del paciente.,TEXTO, 99= SE IGNORA
-33,PAIS_ORIGEN,Identifica el país del que partió el paciente rumbo a México.,TEXTO, 97= NO APLICA
+32,PAIS_NACIONALIDAD,Identifica la nacionalidad del paciente.,TEXTO 99= SE IGNORA
+33,PAIS_ORIGEN,Identifica el país del que partió el paciente rumbo a México.,TEXTO 97= NO APLICA
 34,UCI,Identifica si el paciente requirió ingresar a una Unidad de Cuidados Intensivos.,CATÁLOGO: SI_ NO                                                                  
