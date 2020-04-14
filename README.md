@@ -1,9 +1,13 @@
 # Datos sobre el COVID-19 en méxico.
 
-**AYUDA** *Si tienes las tablas de casos positivos/sospechosos
-antes del 2020-03-15, o las tablas de casos/defunciones por estado antes
-del 2020-04-01 en cualquier formato por favor avísame en
-[Twitter](https://twitter.com/sur_hp)*.
+**IMPORTANTE**: A partir del 2020-04-13 la Secretaría de salud ha comenzado
+a publicar información más completa del COVID-19 en la plataforma de
+[datos abiertos del gobierno](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico).
+El gobierno promete actualizarlos diariamente. Estos datos se encuentran
+en el directorio `datos_abiertos` de este repositorio,
+y tomarán precendencia para los análisis y visualizaciones en
+[CoronaMex](https://coronamex.github.io). Sin embargo, se siguen recolectando
+los datos de los reportes diarios mientras el gobierno los siga publicando.
 
 Este repositorio contiene los datos presentados en
 [CoronaMex](https://github.com/coronamex)
