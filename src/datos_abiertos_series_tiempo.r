@@ -29,10 +29,11 @@ Dat <- Dat %>%
 
 Serie_confirmados <- Dat %>%
   split(.$ENTIDAD_UM) %>%
-  map_dfr(function(d){
+  map_dfr(function(d, fecha_final = Sys.Date()){
     # d <- Dat %>% filter(ENTIDAD_UM == "01")
     # d <- Dat %>% filter(ENTIDAD_UM == "06")
     # d <- Dat %>% filter(ENTIDAD_UM == "25")
+    # fecha_final <- Sys.Date()
     # cat(unique(d$ENTIDAD_UM), "\n")
     
     d <- d %>%
@@ -60,11 +61,16 @@ Serie_confirmados <- Dat %>%
                          numero = 0,
                          grupo = "muertes_nuevas"))
     }
-    res %>%
-      mutate(fecha = fecha %>% parse_date(format = "%Y-%m-%d")) %>%
-      pivot_wider(fecha, names_from = "grupo", values_from = "numero",
-                  values_fill = list(numero = 0)) %>%
+    res <- res %>%
+      mutate(fecha = fecha %>% parse_date(format = "%Y-%m-%d"))
+    
+    tibble(fecha = min(res$fecha) + 0:(fecha_final - min(res$fecha))) %>%
+      left_join(res %>%
+                  pivot_wider(fecha, names_from = "grupo", values_from = "numero",
+                              values_fill = list(numero = 0)),
+                by = "fecha") %>%
       arrange(fecha) %>%
+      replace_na(list(sintomas_nuevos = 0, ingreso_nuevos = 0, muertes_nuevas = 0)) %>%
       mutate(sintomas_acumulados = cumsum(sintomas_nuevos),
              ingreso_acumulados = cumsum(ingreso_nuevos),
              muertes_acumuladas = cumsum(muertes_nuevas))
@@ -76,6 +82,7 @@ Serie_confirmados %>%
   # filter(fecha == "2020-04-13")
   # select(estado)
   # table
+  # print(n = 100)
   write_csv(path = file.path(args$dir_salida, "serie_tiempo_estados_um_confirmados.csv"))
 
 Serie_confirmados %>%
@@ -87,5 +94,5 @@ Serie_confirmados %>%
   mutate(sintomas_acumulados = cumsum(sintomas_nuevos),
          ingreso_acumulados = cumsum(ingreso_nuevos),
          muertes_acumuladas = cumsum(muertes_nuevas)) %>%
-  # print(n = 100) %>%
+  # print(n = 100) 
   write_csv(path = file.path(args$dir_salida, "serie_tiempo_nacional_confirmados.csv"))
