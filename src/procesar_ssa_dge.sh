@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DIR="./ssa_dge/"
-fecha="2020-04-14"
+fecha="2020-04-15"
 
 echo $DIR
 echo $fecha
