@@ -16,6 +16,21 @@ Los siguientes directorios están presentes:
 
 * **demograficos**: Datos demográficos de diversas fuentes. Revizar el
 [README](demograficos/README.md) para más detalles.
+* **datos_abiertos**: Datos liberados por la Secretaría de Salud a partir
+del 2020-04-13  en la plataforma de
+[datos abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico).
+Estos datos toman precedencia para los análisis de
+[CoronaMex](https://coronamex.github.io).
+* **sinave**: Archivos PDF del Boletín Epidemiológico del Sistema Nacional
+de Vigilancia Epidemiológico (SINAVE), que la Dirección General de
+Epidemiología
+[publica cada semana](https://www.gob.mx/salud/documentos/boletinepidemiologico-sistema-nacional-de-vigilancia-epidemiologica-sistema-unico-de-informacion-231750) (con dos semanas de retraso). Y tablas en
+formato CSV de enfermedades respiratorias infecciosas de los boletines.
+Loa números nacionales son utilizados como factor de corrección
+sobre los números de COVID-19 en las USMER para producir los estimados del
+sistema Centinela. Sin embargo los números en estas tablas no concuerdan
+con las tablas mostradas en las conferencias de prensa de la Secretaría
+de Salud, posiblemente porque los boletines incluyen casos probables.
 * **src**: Código para procesar datos.
 * **ssa_dge**: Datos liberados por la [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia)
 de la [Secretaría de Salud](https://www.gob.mx/salud) a través de sus comunicados
@@ -43,6 +58,11 @@ y se pueden encontrar algunos de los archivos anteriores en su
 Esta es una fuente oficial.
 * El [mapa interactivo](http://ncov.sinave.gob.mx/mapa.aspx) de la DGE se
 usa para obtener datos por estado. Esta es una fuente oficial.
+* El portal de
+[datos abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico)
+del Gobierno de México y la
+[página correspondiente](https://www.gob.mx/salud/documentos/datos-abiertos-152127) de la Dirección General de Epidemiología publican una tabla
+en formato CSV dsde el 2020-04-13. Esta es una fuente oficial.
 * [Repositorio de Guillermo de Anda-Jáuregui](https://github.com/guillermodeandajauregui/datos_covid19.mx) para completar tablas de casos confirmados. Esta es una
 fuente no oficial.
 * Repositorio [mexicovid19/Mexico-datos](https://github.com/mexicovid19/Mexico-datos)
