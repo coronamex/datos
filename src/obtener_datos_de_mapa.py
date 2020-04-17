@@ -112,9 +112,9 @@ def json_a_dataframe(cadena_json):
                                'casos_acumulados',
                                'negativos_acumulados',
                                'sospechosos', 'muertes_acumuladas',
-                               'fecha'])
-    df = df.drop(columns=['id', 'pob', 'num', 'fecha'])
-    df = df.drop(df.index[df.estado == "NACIONAL"],axis=0)
+                               'fecha1', 'fecha2_coma'])
+    df = df.drop(columns=['id', 'pob', 'num', 'fecha1', 'fecha2_coma'])
+    df = df.drop(df.index[df.estado == "NACIONAL"], axis=0)
     ii = ['casos_acumulados', 'negativos_acumulados',
           'sospechosos', 'muertes_acumuladas']
     df[ii] = df[ii].apply(pd.to_numeric)
