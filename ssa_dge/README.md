@@ -9,9 +9,6 @@ y tomarán precendencia para los análisis y visualizaciones en
 [CoronaMex](https://coronamex.github.io). Sin embargo, se siguen recolectando
 los datos de los reportes diarios mientras el gobierno los siga publicando.
 
-Este repositorio contiene los datos presentados en
-[CoronaMex](https://github.com/coronamex).
-
 **AYUDA** *Si tienes las tablas de casos positivos/sospechosos
 antes del 2020-03-15, o las tablas de casos/defunciones por estado antes
 del 2020-04-01 en cualquier formato por favor avísame en
