@@ -40,7 +40,7 @@ de la [Secretaría de Salud](https://www.gob.mx/salud) a través de sus comunica
 técnicos diarios así como las tablas de casos confirmados y casos sospechosos
 del InDRE y liberados diariamente. También se obtienen datos del
 [mapa interactivo](https://covid19.sinave.gob.mx/mapa.aspx) de la DGE.
-El archivo [ssa_dge/README.md](ssa_dge/READEME.md) describe los datos
+El archivo [ssa_dge/README.md](ssa_dge/README.md) describe los datos
 disponibles.
 * **util**: Archivos con utilidades para el código.
 
