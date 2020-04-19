@@ -12,11 +12,12 @@ CSV.
 * **serie_tiempo_estados_um_confirmados.csv**: Serie de tiempo para los
 casos confirmados por entidad de la unidad médica en que buscaron atención.
 La cuenta por estado inicia el día en que aparece el primer caso mostró
-síntomas. Por cada día desde entonces se muestra el número de nuevos casos
-que mostraron síntomas (*sintomas_nuevos*), el número de nuevos casos que
-buscaron atención médica (*ingreso_nuevos*), y el número de defunciones
+síntomas en dicho estado. Por cada día desde entonces se muestra el número
+de casos que mostraron síntomas en una fecha determinada (*sintomas_nuevos*),
+el número de casos que buscaron atención médica en una fecha determinada
+(*ingreso_nuevos*), y el número de defunciones en una fecha determinada
 (*muertes_nuevas*). Además se incluyen columnas con los números acumulados
-correspondientes.
+totales correspondientes.
 * **serie_tiempo_nacional_confirmados.csv**: Serie de tiempo para los
 casos confirmados a nivel nacional. Contiene las mismas columnas que
 *serie_tiempo_estados_um_confirmados.csv* pero los números son agregados

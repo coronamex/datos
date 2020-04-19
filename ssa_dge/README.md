@@ -1,5 +1,17 @@
 # Datos de la Dirección general de Epidemiología de la Secretaría de Salud
 
+**IMPORTANTE**: A partir del 2020-04-13 la Secretaría de Salud ha comenzado
+a publicar información más completa del COVID-19 en la plataforma de
+[datos abiertos del gobierno](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico).
+Estos datos se encuentran
+en el directorio [datos_abiertos](../datos_abiertos/),
+y tomarán precendencia para los análisis y visualizaciones en
+[CoronaMex](https://coronamex.github.io). Sin embargo, se siguen recolectando
+los datos de los reportes diarios mientras el gobierno los siga publicando.
+
+Este repositorio contiene los datos presentados en
+[CoronaMex](https://github.com/coronamex).
+
 **AYUDA** *Si tienes las tablas de casos positivos/sospechosos
 antes del 2020-03-15, o las tablas de casos/defunciones por estado antes
 del 2020-04-01 en cualquier formato por favor avísame en
@@ -8,7 +20,8 @@ del 2020-04-01 en cualquier formato por favor avísame en
 ## Archivos principales
 
 * **datos_mapa.csv**: Vínculo a tabla más reciente con casos confirmados,
-sospechosos, negativos y muertes por estado en formato CSV.
+sospechosos, negativos y muertes por estado en formato CSV. Los números
+en esta tabla son recolectados del mapa interactivo de la DGE.
 * **reportes_diarios.csv**: Esta tabla contiene los números
 agregados nacionales para casos positivos, sospechosos y muertes.
 Los números son tomados del comunicado técnico diario desde el
@@ -34,7 +47,7 @@ las tabla de casos positivos confirmados del InDRE. El archivo suelen
 tener nombre de la forma:
 "Tabla\_casos\_positivos\_COVID-19\_resultado\_InDRE\_*YYYY.MM.DD*.pdf",
 y hay un archivo CSV con el nombre "tabla\_casos\_confirmados.csv" con
-los datos del archivo del InDRE. **NOTA**: A partir del `2020-04-06` la 
+los datos del archivo del InDRE. **NOTA**: A partir del `2020-04-06` la
 Secretaría de Salud dejó de incluir la fecha de llegada a México de los
 casos confirmados, y a partir del `2020-04-08` la Secretaría de Salud dejó
 de incluir la fecha de llegada a México de los casos con historial de viaje.
@@ -46,13 +59,13 @@ sospechosos. El archivo suele tener nombre de la forma:
 
 A partir del 2020-04-01 se descarga una tabla en formato JSON del
 [mapa interactivo](https://ncov.sinave.gob.mx/mapa.aspx)
-de la Dirección General de Epidemiología. Los archivos se llaman 
+de la Dirección General de Epidemiología. Los archivos se llaman
 "datos\_mapa.json". Además la tabla es convertida
 a formato CSV y llamada "datos\_mapa.csv".
 
 Previo al 2020-04-01. Hay un archivo "datos\_estados.csv" que contiene
 los casos y muertes acumulado(a)s por estado. Estos datos fueron
-importados del 
+importados del
 [repositorio de Gabriel Alfonso Carranco-Sapiéns](https://github.com/carranco-sga/Mexico-COVID-19). Los números de casos coinciden completamente
 con los números calculados en CoronaMex basados en la tabla de
 casos positivos en. Estos archivos se usan para completar la línea del
