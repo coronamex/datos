@@ -30,7 +30,7 @@ residencia de los pacientes. No tenemos municipio de las unidades médicas
 y por lo tanto esta tabla se usa para análisis de municipios en
 [CoronaMex](https://coronamex.github.io).
 Se añade la columna *clave* que tiene la forma `##_###` donde los primeros
-dos dígitos son la clave de la entidad y los res dígitos finales son la
+dos dígitos son la clave de la entidad y los tres dígitos finales son la
 clave del municipio de la entidad correspondiente.
 * **serie_tiempo_nacional_confirmados.csv**: Serie de tiempo para los
 casos confirmados a nivel nacional. Contiene las mismas columnas que
