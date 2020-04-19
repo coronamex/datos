@@ -33,6 +33,7 @@ Aguascalientes,65,2020-04-14,10
 Aguascalientes,65,2020-04-15,0
 Aguascalientes,71,2020-04-16,6
 Aguascalientes,77,2020-04-17,6
+Aguascalientes,77,2020-04-18,0
 Baja California,2,2020-03-18,2
 Baja California,2,2020-03-19,0
 Baja California,4,2020-03-20,2
@@ -64,6 +65,7 @@ Baja California,412,2020-04-14,44
 Baja California,464,2020-04-15,52
 Baja California,505,2020-04-16,41
 Baja California,536,2020-04-17,31
+Baja California,610,2020-04-18,74
 Baja California Sur,1,2020-03-21,1
 Baja California Sur,1,2020-03-22,0
 Baja California Sur,2,2020-03-23,1
@@ -92,6 +94,7 @@ Baja California Sur,164,2020-04-14,11
 Baja California Sur,164,2020-04-15,0
 Baja California Sur,165,2020-04-16,1
 Baja California Sur,169,2020-04-17,4
+Baja California Sur,173,2020-04-18,4
 Campeche,1,2020-03-22,1
 Campeche,2,2020-03-23,1
 Campeche,2,2020-03-24,0
@@ -119,6 +122,7 @@ Campeche,33,2020-04-14,4
 Campeche,42,2020-04-15,9
 Campeche,45,2020-04-16,3
 Campeche,47,2020-04-17,2
+Campeche,56,2020-04-18,9
 Ciudad de México,2,2020-02-28,2
 Ciudad de México,2,2020-02-29,0
 Ciudad de México,2,2020-03-01,0
@@ -169,6 +173,7 @@ Ciudad de México,1556,2020-04-14,119
 Ciudad de México,1686,2020-04-15,130
 Ciudad de México,1828,2020-04-16,142
 Ciudad de México,2080,2020-04-17,252
+Ciudad de México,2299,2020-04-18,219
 Coahuila,1,2020-02-29,1
 Coahuila,1,2020-03-01,0
 Coahuila,1,2020-03-02,0
@@ -218,6 +223,7 @@ Coahuila,194,2020-04-14,18
 Coahuila,195,2020-04-15,1
 Coahuila,214,2020-04-16,19
 Coahuila,217,2020-04-17,3
+Coahuila,232,2020-04-18,15
 Colima,1,2020-03-18,1
 Colima,1,2020-03-19,0
 Colima,1,2020-03-20,0
@@ -249,6 +255,7 @@ Colima,7,2020-04-14,0
 Colima,7,2020-04-15,0
 Colima,7,2020-04-16,0
 Colima,9,2020-04-17,2
+Colima,10,2020-04-18,1
 Chiapas,1,2020-03-01,1
 Chiapas,1,2020-03-02,0
 Chiapas,1,2020-03-03,0
@@ -297,6 +304,7 @@ Chiapas,45,2020-04-14,2
 Chiapas,48,2020-04-15,3
 Chiapas,54,2020-04-16,6
 Chiapas,58,2020-04-17,4
+Chiapas,62,2020-04-18,4
 Chihuahua,1,2020-03-17,1
 Chihuahua,1,2020-03-18,0
 Chihuahua,1,2020-03-19,0
@@ -329,6 +337,7 @@ Chihuahua,69,2020-04-14,2
 Chihuahua,83,2020-04-15,14
 Chihuahua,108,2020-04-16,25
 Chihuahua,115,2020-04-17,7
+Chihuahua,131,2020-04-18,16
 Durango,1,2020-03-12,1
 Durango,1,2020-03-13,0
 Durango,1,2020-03-14,0
@@ -366,6 +375,7 @@ Durango,15,2020-04-14,-1
 Durango,16,2020-04-15,1
 Durango,17,2020-04-16,1
 Durango,19,2020-04-17,2
+Durango,19,2020-04-18,0
 Guanajuato,1,2020-03-17,1
 Guanajuato,4,2020-03-18,3
 Guanajuato,4,2020-03-19,0
@@ -398,6 +408,7 @@ Guanajuato,90,2020-04-14,2
 Guanajuato,91,2020-04-15,1
 Guanajuato,96,2020-04-16,5
 Guanajuato,113,2020-04-17,17
+Guanajuato,116,2020-04-18,3
 Guerrero,2,2020-03-16,2
 Guerrero,2,2020-03-17,0
 Guerrero,2,2020-03-18,0
@@ -431,6 +442,7 @@ Guerrero,88,2020-04-14,11
 Guerrero,97,2020-04-15,9
 Guerrero,100,2020-04-16,3
 Guerrero,110,2020-04-17,10
+Guerrero,110,2020-04-18,0
 Hidalgo,2,2020-03-19,2
 Hidalgo,2,2020-03-20,0
 Hidalgo,3,2020-03-21,1
@@ -461,6 +473,7 @@ Hidalgo,64,2020-04-14,6
 Hidalgo,64,2020-04-15,0
 Hidalgo,67,2020-04-16,3
 Hidalgo,70,2020-04-17,3
+Hidalgo,75,2020-04-18,5
 Jalisco,2,2020-03-14,2
 Jalisco,2,2020-03-15,0
 Jalisco,2,2020-03-16,0
@@ -496,6 +509,7 @@ Jalisco,165,2020-04-14,6
 Jalisco,176,2020-04-15,11
 Jalisco,178,2020-04-16,2
 Jalisco,190,2020-04-17,12
+Jalisco,196,2020-04-18,6
 México,1,2020-03-06,1
 México,1,2020-03-07,0
 México,1,2020-03-08,0
@@ -539,6 +553,7 @@ México,602,2020-04-14,44
 México,659,2020-04-15,57
 México,695,2020-04-16,36
 México,754,2020-04-17,59
+México,786,2020-04-18,32
 Michoacán,3,2020-03-22,3
 Michoacán,7,2020-03-23,4
 Michoacán,8,2020-03-24,1
@@ -566,6 +581,7 @@ Michoacán,67,2020-04-14,5
 Michoacán,70,2020-04-15,3
 Michoacán,84,2020-04-16,14
 Michoacán,99,2020-04-17,15
+Michoacán,107,2020-04-18,8
 Morelos,2,2020-03-20,2
 Morelos,2,2020-03-21,0
 Morelos,2,2020-03-22,0
@@ -595,6 +611,7 @@ Morelos,53,2020-04-14,4
 Morelos,56,2020-04-15,3
 Morelos,58,2020-04-16,2
 Morelos,73,2020-04-17,15
+Morelos,77,2020-04-18,4
 Nayarit,1,2020-03-21,1
 Nayarit,1,2020-03-22,0
 Nayarit,1,2020-03-23,0
@@ -623,6 +640,7 @@ Nayarit,25,2020-04-14,0
 Nayarit,27,2020-04-15,2
 Nayarit,29,2020-04-16,2
 Nayarit,31,2020-04-17,2
+Nayarit,33,2020-04-18,2
 Nuevo León,1,2020-03-12,1
 Nuevo León,1,2020-03-13,0
 Nuevo León,3,2020-03-14,2
@@ -660,6 +678,7 @@ Nuevo León,136,2020-04-14,4
 Nuevo León,150,2020-04-15,14
 Nuevo León,159,2020-04-16,9
 Nuevo León,159,2020-04-17,0
+Nuevo León,172,2020-04-18,13
 Oaxaca,1,2020-03-14,1
 Oaxaca,2,2020-03-15,1
 Oaxaca,2,2020-03-16,0
@@ -695,6 +714,7 @@ Oaxaca,46,2020-04-14,2
 Oaxaca,50,2020-04-15,4
 Oaxaca,53,2020-04-16,3
 Oaxaca,56,2020-04-17,3
+Oaxaca,62,2020-04-18,6
 Puebla,1,2020-03-11,1
 Puebla,1,2020-03-12,0
 Puebla,2,2020-03-13,1
@@ -733,6 +753,7 @@ Puebla,276,2020-04-14,7
 Puebla,290,2020-04-15,14
 Puebla,304,2020-04-16,14
 Puebla,314,2020-04-17,10
+Puebla,330,2020-04-18,16
 Querétaro,1,2020-03-11,1
 Querétaro,1,2020-03-12,0
 Querétaro,4,2020-03-13,3
@@ -771,6 +792,7 @@ Querétaro,65,2020-04-14,4
 Querétaro,69,2020-04-15,4
 Querétaro,76,2020-04-16,7
 Querétaro,78,2020-04-17,2
+Querétaro,79,2020-04-18,1
 Quintana Roo,1,2020-03-13,1
 Quintana Roo,1,2020-03-14,0
 Quintana Roo,1,2020-03-15,0
@@ -807,6 +829,7 @@ Quintana Roo,245,2020-04-14,6
 Quintana Roo,269,2020-04-15,24
 Quintana Roo,276,2020-04-16,7
 Quintana Roo,280,2020-04-17,4
+Quintana Roo,315,2020-04-18,35
 San Luis Potosí,1,2020-03-14,1
 San Luis Potosí,2,2020-03-15,1
 San Luis Potosí,2,2020-03-16,0
@@ -842,6 +865,7 @@ San Luis Potosí,55,2020-04-14,0
 San Luis Potosí,56,2020-04-15,1
 San Luis Potosí,56,2020-04-16,0
 San Luis Potosí,58,2020-04-17,2
+San Luis Potosí,59,2020-04-18,1
 Sinaloa,1,2020-02-28,1
 Sinaloa,1,2020-02-29,0
 Sinaloa,1,2020-03-01,0
@@ -892,6 +916,7 @@ Sinaloa,261,2020-04-14,16
 Sinaloa,292,2020-04-15,31
 Sinaloa,327,2020-04-16,35
 Sinaloa,374,2020-04-17,47
+Sinaloa,413,2020-04-18,39
 Sonora,1,2020-03-17,1
 Sonora,1,2020-03-18,0
 Sonora,2,2020-03-19,1
@@ -924,6 +949,7 @@ Sonora,73,2020-04-14,1
 Sonora,78,2020-04-15,5
 Sonora,89,2020-04-16,11
 Sonora,97,2020-04-17,8
+Sonora,108,2020-04-18,11
 Tabasco,1,2020-03-18,1
 Tabasco,1,2020-03-19,0
 Tabasco,2,2020-03-20,1
@@ -955,6 +981,7 @@ Tabasco,195,2020-04-14,39
 Tabasco,210,2020-04-15,15
 Tabasco,233,2020-04-16,23
 Tabasco,250,2020-04-17,17
+Tabasco,278,2020-04-18,28
 Tamaulipas,1,2020-03-17,1
 Tamaulipas,2,2020-03-18,1
 Tamaulipas,2,2020-03-19,0
@@ -987,6 +1014,7 @@ Tamaulipas,55,2020-04-14,2
 Tamaulipas,60,2020-04-15,5
 Tamaulipas,78,2020-04-16,18
 Tamaulipas,91,2020-04-17,13
+Tamaulipas,117,2020-04-18,26
 Tlaxcala,1,2020-03-25,1
 Tlaxcala,1,2020-03-26,0
 Tlaxcala,4,2020-03-27,3
@@ -1011,6 +1039,7 @@ Tlaxcala,51,2020-04-14,2
 Tlaxcala,58,2020-04-15,7
 Tlaxcala,62,2020-04-16,4
 Tlaxcala,67,2020-04-17,5
+Tlaxcala,72,2020-04-18,5
 Veracruz,2,2020-03-18,2
 Veracruz,2,2020-03-19,0
 Veracruz,4,2020-03-20,2
@@ -1042,6 +1071,7 @@ Veracruz,94,2020-04-14,12
 Veracruz,106,2020-04-15,12
 Veracruz,112,2020-04-16,6
 Veracruz,121,2020-04-17,9
+Veracruz,124,2020-04-18,3
 Yucatán,1,2020-03-13,1
 Yucatán,1,2020-03-14,0
 Yucatán,1,2020-03-15,0
@@ -1078,6 +1108,7 @@ Yucatán,116,2020-04-14,2
 Yucatán,128,2020-04-15,12
 Yucatán,131,2020-04-16,3
 Yucatán,140,2020-04-17,9
+Yucatán,172,2020-04-18,32
 Zacatecas,1,2020-03-21,1
 Zacatecas,2,2020-03-22,1
 Zacatecas,3,2020-03-23,1
@@ -1106,3 +1137,4 @@ Zacatecas,17,2020-04-14,1
 Zacatecas,18,2020-04-15,1
 Zacatecas,18,2020-04-16,0
 Zacatecas,23,2020-04-17,5
+Zacatecas,27,2020-04-18,4
