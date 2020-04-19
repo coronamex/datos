@@ -39,6 +39,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,1,0,77,77,2,Aguascalientes
 2020-04-17,0,0,0,77,77,2,Aguascalientes
 2020-04-18,0,0,0,77,77,2,Aguascalientes
+2020-04-19,0,0,0,77,77,2,Aguascalientes
 2020-03-09,1,0,0,1,0,0,Baja California
 2020-03-10,0,0,0,1,0,0,Baja California
 2020-03-11,2,1,0,3,1,0,Baja California
@@ -80,6 +81,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,0,1,610,610,68,Baja California
 2020-04-17,0,0,0,610,610,68,Baja California
 2020-04-18,0,0,0,610,610,68,Baja California
+2020-04-19,0,0,0,610,610,68,Baja California
 2020-03-16,3,0,0,3,0,0,Baja California Sur
 2020-03-17,1,0,0,4,0,0,Baja California Sur
 2020-03-18,1,1,0,5,1,0,Baja California Sur
@@ -114,6 +116,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,3,0,173,170,6,Baja California Sur
 2020-04-17,0,3,0,173,173,6,Baja California Sur
 2020-04-18,0,0,0,173,173,6,Baja California Sur
+2020-04-19,0,0,0,173,173,6,Baja California Sur
 2020-02-23,1,0,0,1,0,0,Campeche
 2020-02-24,0,0,0,1,0,0,Campeche
 2020-02-25,0,0,0,1,0,0,Campeche
@@ -170,6 +173,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,3,0,56,56,3,Campeche
 2020-04-17,0,0,0,56,56,3,Campeche
 2020-04-18,0,0,0,56,56,3,Campeche
+2020-04-19,0,0,0,56,56,3,Campeche
 2020-02-27,1,0,0,1,0,0,Coahuila
 2020-02-28,0,1,0,1,1,0,Coahuila
 2020-02-29,0,0,0,1,1,0,Coahuila
@@ -222,6 +226,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,2,1,232,231,18,Coahuila
 2020-04-17,0,1,0,232,232,18,Coahuila
 2020-04-18,0,0,0,232,232,18,Coahuila
+2020-04-19,0,0,0,232,232,18,Coahuila
 2020-03-12,1,0,0,1,0,0,Colima
 2020-03-13,0,0,0,1,0,0,Colima
 2020-03-14,0,1,0,1,1,0,Colima
@@ -260,6 +265,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,0,1,10,9,2,Colima
 2020-04-17,0,1,0,10,10,2,Colima
 2020-04-18,0,0,0,10,10,2,Colima
+2020-04-19,0,0,0,10,10,2,Colima
 2020-02-25,1,0,0,1,0,0,Chiapas
 2020-02-26,0,0,0,1,0,0,Chiapas
 2020-02-27,0,0,0,1,0,0,Chiapas
@@ -314,6 +320,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,2,0,62,62,3,Chiapas
 2020-04-17,0,0,0,62,62,3,Chiapas
 2020-04-18,0,0,0,62,62,3,Chiapas
+2020-04-19,0,0,0,62,62,3,Chiapas
 2020-03-12,1,0,0,1,0,0,Chihuahua
 2020-03-13,1,0,0,2,0,0,Chihuahua
 2020-03-14,0,1,0,2,1,0,Chihuahua
@@ -352,6 +359,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,2,2,131,131,31,Chihuahua
 2020-04-17,0,0,0,131,131,31,Chihuahua
 2020-04-18,0,0,0,131,131,31,Chihuahua
+2020-04-19,0,0,0,131,131,31,Chihuahua
 2020-02-17,2,0,0,2,0,0,Ciudad de México
 2020-02-18,0,0,0,2,0,0,Ciudad de México
 2020-02-19,0,0,0,2,0,0,Ciudad de México
@@ -414,6 +422,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,4,87,7,2299,2293,176,Ciudad de México
 2020-04-17,0,6,1,2299,2299,177,Ciudad de México
 2020-04-18,0,0,1,2299,2299,178,Ciudad de México
+2020-04-19,0,0,0,2299,2299,178,Ciudad de México
 2020-03-06,1,0,0,1,0,0,Durango
 2020-03-07,0,0,0,1,0,0,Durango
 2020-03-08,0,0,0,1,0,0,Durango
@@ -458,6 +467,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,1,0,19,19,4,Durango
 2020-04-17,0,0,0,19,19,4,Durango
 2020-04-18,0,0,0,19,19,4,Durango
+2020-04-19,0,0,0,19,19,4,Durango
 2020-03-10,1,0,0,1,0,0,Guanajuato
 2020-03-11,0,0,0,1,0,0,Guanajuato
 2020-03-12,2,0,0,3,0,0,Guanajuato
@@ -498,6 +508,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,6,0,116,116,7,Guanajuato
 2020-04-17,0,0,2,116,116,9,Guanajuato
 2020-04-18,0,0,0,116,116,9,Guanajuato
+2020-04-19,0,0,0,116,116,9,Guanajuato
 2020-03-08,1,0,0,1,0,0,Guerrero
 2020-03-09,1,0,0,2,0,0,Guerrero
 2020-03-10,0,0,0,2,0,0,Guerrero
@@ -540,6 +551,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,1,0,110,110,11,Guerrero
 2020-04-17,0,0,0,110,110,11,Guerrero
 2020-04-18,0,0,0,110,110,11,Guerrero
+2020-04-19,0,0,0,110,110,11,Guerrero
 2020-03-07,1,0,0,1,0,0,Hidalgo
 2020-03-08,1,0,0,2,0,0,Hidalgo
 2020-03-09,0,0,0,2,0,0,Hidalgo
@@ -583,6 +595,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,3,0,75,72,13,Hidalgo
 2020-04-17,0,3,0,75,75,13,Hidalgo
 2020-04-18,0,0,0,75,75,13,Hidalgo
+2020-04-19,0,0,0,75,75,13,Hidalgo
 2020-03-01,2,0,0,2,0,0,Jalisco
 2020-03-02,0,0,0,2,0,0,Jalisco
 2020-03-03,0,0,0,2,0,0,Jalisco
@@ -632,6 +645,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,1,1,196,196,12,Jalisco
 2020-04-17,0,0,1,196,196,13,Jalisco
 2020-04-18,0,0,0,196,196,13,Jalisco
+2020-04-19,0,0,0,196,196,13,Jalisco
 2020-02-19,1,0,0,1,0,0,México
 2020-02-20,0,0,0,1,0,0,México
 2020-02-21,1,0,0,2,0,0,México
@@ -692,6 +706,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,3,8,1,786,785,52,México
 2020-04-17,0,1,0,786,786,52,México
 2020-04-18,0,0,0,786,786,52,México
+2020-04-19,0,0,0,786,786,52,México
 2020-03-09,1,0,0,1,0,0,Michoacán
 2020-03-10,0,0,0,1,0,0,Michoacán
 2020-03-11,0,0,0,1,0,0,Michoacán
@@ -733,6 +748,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,3,1,107,107,15,Michoacán
 2020-04-17,0,0,0,107,107,15,Michoacán
 2020-04-18,0,0,1,107,107,16,Michoacán
+2020-04-19,0,0,0,107,107,16,Michoacán
 2020-03-14,1,0,0,1,0,0,Morelos
 2020-03-15,0,0,0,1,0,0,Morelos
 2020-03-16,1,0,0,2,0,0,Morelos
@@ -769,6 +785,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,3,0,77,75,11,Morelos
 2020-04-17,0,2,0,77,77,11,Morelos
 2020-04-18,0,0,0,77,77,11,Morelos
+2020-04-19,0,0,0,77,77,11,Morelos
 2020-03-10,1,0,0,1,0,0,Nayarit
 2020-03-11,0,0,0,1,0,0,Nayarit
 2020-03-12,0,0,0,1,0,0,Nayarit
@@ -809,6 +826,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,3,0,33,33,5,Nayarit
 2020-04-17,0,0,0,33,33,5,Nayarit
 2020-04-18,0,0,0,33,33,5,Nayarit
+2020-04-19,0,0,0,33,33,5,Nayarit
 2020-03-02,1,0,0,1,0,0,Nuevo León
 2020-03-03,0,0,0,1,0,0,Nuevo León
 2020-03-04,1,0,0,2,0,0,Nuevo León
@@ -857,6 +875,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,1,0,172,172,6,Nuevo León
 2020-04-17,0,0,0,172,172,6,Nuevo León
 2020-04-18,0,0,0,172,172,6,Nuevo León
+2020-04-19,0,0,0,172,172,6,Nuevo León
 2020-03-09,1,0,0,1,0,0,Oaxaca
 2020-03-10,1,0,0,2,0,0,Oaxaca
 2020-03-11,0,0,0,2,0,0,Oaxaca
@@ -898,6 +917,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,2,0,62,59,5,Oaxaca
 2020-04-17,0,3,1,62,62,6,Oaxaca
 2020-04-18,0,0,0,62,62,6,Oaxaca
+2020-04-19,0,0,0,62,62,6,Oaxaca
 2020-03-05,2,0,0,2,0,0,Puebla
 2020-03-06,0,0,0,2,0,0,Puebla
 2020-03-07,0,0,0,2,0,0,Puebla
@@ -943,6 +963,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,1,9,2,330,321,39,Puebla
 2020-04-17,0,9,1,330,330,40,Puebla
 2020-04-18,0,0,0,330,330,40,Puebla
+2020-04-19,0,0,0,330,330,40,Puebla
 2020-03-05,1,0,0,1,0,0,Querétaro
 2020-03-06,0,0,0,1,0,0,Querétaro
 2020-03-07,0,0,0,1,0,0,Querétaro
@@ -988,6 +1009,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,3,0,79,79,6,Querétaro
 2020-04-17,0,0,0,79,79,6,Querétaro
 2020-04-18,0,0,0,79,79,6,Querétaro
+2020-04-19,0,0,0,79,79,6,Querétaro
 2020-03-01,1,0,0,1,0,0,Quintana Roo
 2020-03-02,0,0,0,1,0,0,Quintana Roo
 2020-03-03,0,0,0,1,0,0,Quintana Roo
@@ -1037,6 +1059,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,6,1,315,314,31,Quintana Roo
 2020-04-17,0,1,0,315,315,31,Quintana Roo
 2020-04-18,0,0,0,315,315,31,Quintana Roo
+2020-04-19,0,0,0,315,315,31,Quintana Roo
 2020-03-07,1,0,0,1,0,0,San Luis Potosí
 2020-03-08,0,0,0,1,0,0,San Luis Potosí
 2020-03-09,1,0,0,2,0,0,San Luis Potosí
@@ -1080,6 +1103,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,0,0,59,59,4,San Luis Potosí
 2020-04-17,0,0,0,59,59,4,San Luis Potosí
 2020-04-18,0,0,0,59,59,4,San Luis Potosí
+2020-04-19,0,0,0,59,59,4,San Luis Potosí
 2020-02-22,1,0,0,1,0,0,Sinaloa
 2020-02-23,0,0,0,1,0,0,Sinaloa
 2020-02-24,0,0,0,1,0,0,Sinaloa
@@ -1137,6 +1161,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,7,0,413,413,44,Sinaloa
 2020-04-17,0,0,1,413,413,45,Sinaloa
 2020-04-18,0,0,0,413,413,45,Sinaloa
+2020-04-19,0,0,0,413,413,45,Sinaloa
 2020-03-11,2,0,0,2,0,0,Sonora
 2020-03-12,1,0,0,3,0,0,Sonora
 2020-03-13,0,0,0,3,0,0,Sonora
@@ -1176,6 +1201,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,4,0,108,108,10,Sonora
 2020-04-17,0,0,0,108,108,10,Sonora
 2020-04-18,0,0,0,108,108,10,Sonora
+2020-04-19,0,0,0,108,108,10,Sonora
 2020-03-02,1,0,0,1,0,0,Tabasco
 2020-03-03,0,0,0,1,0,0,Tabasco
 2020-03-04,0,0,0,1,0,0,Tabasco
@@ -1224,6 +1250,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,12,1,278,277,26,Tabasco
 2020-04-17,0,1,2,278,278,28,Tabasco
 2020-04-18,0,0,0,278,278,28,Tabasco
+2020-04-19,0,0,0,278,278,28,Tabasco
 2020-03-13,1,0,0,1,0,0,Tamaulipas
 2020-03-14,2,0,0,3,0,0,Tamaulipas
 2020-03-15,0,1,0,3,1,0,Tamaulipas
@@ -1261,6 +1288,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,12,19,0,112,107,5,Tamaulipas
 2020-04-17,5,10,0,117,117,5,Tamaulipas
 2020-04-18,0,0,0,117,117,5,Tamaulipas
+2020-04-19,0,0,0,117,117,5,Tamaulipas
 2020-03-16,2,0,0,2,0,0,Tlaxcala
 2020-03-17,1,0,0,3,0,0,Tlaxcala
 2020-03-18,0,0,0,3,0,0,Tlaxcala
@@ -1295,6 +1323,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,1,3,0,72,71,4,Tlaxcala
 2020-04-17,0,1,0,72,72,4,Tlaxcala
 2020-04-18,0,0,0,72,72,4,Tlaxcala
+2020-04-19,0,0,0,72,72,4,Tlaxcala
 2020-03-03,1,0,0,1,0,0,Veracruz
 2020-03-04,0,0,0,1,0,0,Veracruz
 2020-03-05,0,0,0,1,0,0,Veracruz
@@ -1342,6 +1371,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,2,1,124,124,8,Veracruz
 2020-04-17,0,0,0,124,124,8,Veracruz
 2020-04-18,0,0,0,124,124,8,Veracruz
+2020-04-19,0,0,0,124,124,8,Veracruz
 2020-02-19,1,0,0,1,0,0,Yucatán
 2020-02-20,0,0,0,1,0,0,Yucatán
 2020-02-21,0,0,0,1,0,0,Yucatán
@@ -1402,6 +1432,7 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,4,1,172,169,9,Yucatán
 2020-04-17,0,3,1,172,172,10,Yucatán
 2020-04-18,0,0,0,172,172,10,Yucatán
+2020-04-19,0,0,0,172,172,10,Yucatán
 2020-03-09,1,0,0,1,0,0,Zacatecas
 2020-03-10,0,0,0,1,0,0,Zacatecas
 2020-03-11,0,0,0,1,0,0,Zacatecas
@@ -1443,3 +1474,4 @@ fecha,sintomas_nuevos,ingreso_nuevos,muertes_nuevas,sintomas_acumulados,ingreso_
 2020-04-16,0,2,0,27,26,2,Zacatecas
 2020-04-17,0,1,0,27,27,2,Zacatecas
 2020-04-18,0,0,0,27,27,2,Zacatecas
+2020-04-19,0,0,0,27,27,2,Zacatecas

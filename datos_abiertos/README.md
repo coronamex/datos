@@ -18,6 +18,20 @@ el número de casos que buscaron atención médica en una fecha determinada
 (*ingreso_nuevos*), y el número de defunciones en una fecha determinada
 (*muertes_nuevas*). Además se incluyen columnas con los números acumulados
 totales correspondientes.
+* **serie_tiempo_estados_res_confirmados.csv**: Tabla CSV equivalente a
+*serie_tiempo_estados_um_confirmados.csv* pero usando la entidad de
+residencia de los pacientes. En [CoronaMex](https://coronamex.github.io)
+asumo que la entidad donde un paciente buscó atención médica es un mejor
+indicador de donde pudo estar activo en estado infeccioso y por lo tanto
+se usa esa tabla a menos que se indique lo contrario.
+* **serie_tiempo_municipios_res_confirmados.csv**: Tabla CSV equivalente a
+*serie_tiempo_estados_um_confirmados.csv* pero usando el municipio de
+residencia de los pacientes. No tenemos municipio de las unidades médicas
+y por lo tanto esta tabla se usa para análisis de municipios en
+[CoronaMex](https://coronamex.github.io).
+Se añade la columna *clave* que tiene la forma `##\_###` donde los primeros
+dos dígitos son la clave de la entidad y los res dígitos finales son la
+clave del municipio de la entidad correspondiente.
 * **serie_tiempo_nacional_confirmados.csv**: Serie de tiempo para los
 casos confirmados a nivel nacional. Contiene las mismas columnas que
 *serie_tiempo_estados_um_confirmados.csv* pero los números son agregados
