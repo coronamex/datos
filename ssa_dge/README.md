@@ -8,6 +8,10 @@ en el directorio [datos_abiertos](../datos_abiertos/),
 y tomarán precendencia para los análisis y visualizaciones en
 [CoronaMex](https://coronamex.github.io). Sin embargo, se siguen recolectando
 los datos de los reportes diarios mientras el gobierno los siga publicando.
+Después del 2020-04-18, la Secretaría de Salud ha dejado de publicar las
+tablas de casos confirmados y sospechosos del InDRE. A partir de esa
+fecha sólo se recolectan los comunicados técnicos diarios y los datos
+del mapa interactivo de la DGE.
 
 **AYUDA** *Si tienes las tablas de casos positivos/sospechosos
 antes del 2020-03-15, o las tablas de casos/defunciones por estado antes
@@ -23,13 +27,14 @@ en esta tabla son recolectados del mapa interactivo de la DGE.
 agregados nacionales para casos positivos, sospechosos y muertes.
 Los números son tomados del comunicado técnico diario desde el
 2020-02-27.
-* **serie_tiempo_estados_casos.csv**: Esta tabla contiene el número
+* **serie_tiempo_estados_casos_2020-04-18.csv**: Esta tabla contiene el número
 de casos nuevos y casos acumulados por estado por fecha. Los números
 se calculan a partir de las tablas de casos positivos confirmados
-del InDRE desde 2020-03-14.
-* **tabla_casos_confirmados.csv**: Vínculo a la a tabla de casos
-conformados como positivos por el InDRE en la fecha más
-reciente disponible en formato CSV.
+del InDRE desde 2020-03-14. **CONGELADO EL 2020-04-18**.
+* **serie_tiempo_estados_muertes_2020-04-18.csv**: Esta tabla contiene el número
+de muertes nuevas y muertes acumuladas por estado por fecha. Los números
+se calculan a partir de las tablas de casos positivos confirmados
+del InDRE desde 2020-03-14. **CONGELADO EL 2020-04-18**.
 
 ## Subdirectorios por fecha
 
@@ -39,6 +44,7 @@ Por cada fecha hay un *Comunicado Técnico Diario* en
 formato PDF suele tener un nombre de la forma
 "Comunicado\_Tecnico\_Diario\_COVID-19\_*YYYY.MM.DD*.pdf"
 
+Los siguientes archivod dejaron de publicarse a después del 2020-04-18.
 A partir del 2020-03-14 hay un archivo PDF con
 las tabla de casos positivos confirmados del InDRE. El archivo suelen
 tener nombre de la forma:
