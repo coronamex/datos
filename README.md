@@ -41,7 +41,8 @@ técnicos diarios así como las tablas de casos confirmados y casos sospechosos
 del InDRE y liberados diariamente. También se obtienen datos del
 [mapa interactivo](https://covid19.sinave.gob.mx/mapa.aspx) de la DGE.
 El archivo [ssa_dge/README.md](ssa_dge/README.md) describe los datos
-disponibles.
+disponibles. `NOTA`: *Las tablas de casos confirmados y sospechosos dejaron
+de publicarse después del 2020-04-18*.
 * **util**: Archivos con utilidades para el código.
 
 ## Acerca de este repositorio
