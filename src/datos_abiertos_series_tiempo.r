@@ -96,8 +96,8 @@ Dat <- Dat %>%
 
 # ENTIDAD_UM
 Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_UM", resultado = "1")
-Series$Serie_var
-Series$Serie_agg
+# Series$Serie_var
+# Series$Serie_agg
 Series$Serie_var %>%
   mutate(estado = estados_lut[ENTIDAD_UM]) %>%
   select(-ENTIDAD_UM) %>%
@@ -107,7 +107,7 @@ Series$Serie_agg %>%
 
 # ENTIDAD_RES
 Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_RES", resultado = "1")
-Series$Serie_var
+# Series$Serie_var
 # Series$Serie_agg
 Series$Serie_var %>%
   mutate(estado = estados_lut[ENTIDAD_RES]) %>%
@@ -119,7 +119,7 @@ Series$Serie_var %>%
 Series <- crear_series_tiempo_variable(Dat = Dat %>%
                                          mutate(municipio = paste(ENTIDAD_RES, MUNICIPIO_RES,  sep = "_")),
                                        variable = "municipio", resultado = "1")
-Series$Serie_var
+# Series$Serie_var
 # Series$Serie_agg
 Series$Serie_var %>%
   mutate(clave = municipio,
