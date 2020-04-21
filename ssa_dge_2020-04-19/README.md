@@ -1,4 +1,5 @@
 # Datos de la Dirección general de Epidemiología de la Secretaría de Salud
+
 **CONGELADO**: El `2020-04-19` la DGE ya no publicó sus tablas de casos
 confirmados y sospechosos. El `2020-04-20` ya no se publicaron los
 comunicados técnicos diarios y el mapa interactivo dejó de incluir el
@@ -25,10 +26,9 @@ del 2020-04-01 en cualquier formato por favor avísame en
 
 ## Archivos principales
 
-* **datos_mapa.csv**: Vínculo a tabla más reciente con casos confirmados,
-sospechosos, negativos y muertes por estado en formato CSV. Los números
-en esta tabla son recolectados del mapa interactivo de la DGE.
-* **reportes_diarios.csv**: Esta tabla contiene los números
+* **reportes_diarios.csv**: **Esta tabla se dejó de actualizar después
+del `2020-04-19` cuando el CTD de la DGE dejó de incluir número de casos**.
+Esta tabla contiene los números
 agregados nacionales para casos positivos, sospechosos y muertes.
 Los números son tomados del comunicado técnico diario desde el
 2020-02-27.
@@ -43,13 +43,16 @@ del InDRE desde 2020-03-14. **CONGELADO EL 2020-04-18**.
 
 ## Subdirectorios por fecha
 
+**IMPORTANTE**: A partir del 2020-04-20 en este directorio sólo se recolecta
+el PDF del comunicado técnico diario de la DGE-SSA.
+
 Hay un directorio por fecha desde el 2020-02-27.
 
 Por cada fecha hay un *Comunicado Técnico Diario* en
 formato PDF suele tener un nombre de la forma
 "Comunicado\_Tecnico\_Diario\_COVID-19\_*YYYY.MM.DD*.pdf"
 
-Los siguientes archivod dejaron de publicarse a después del 2020-04-18.
+Los siguientes archivos dejaron de publicarse a después del 2020-04-18.
 A partir del 2020-03-14 hay un archivo PDF con
 las tabla de casos positivos confirmados del InDRE. El archivo suelen
 tener nombre de la forma:
@@ -80,11 +83,16 @@ casos positivos en. Estos archivos se usan para completar la línea del
 tiempo de casos por estado antes del 2020-03-14, y la línea
 del tiempo de muertes por estado antes del 2020-04-01. Cuando
 están presentes, los archivos "datos\_mapa.csv", y
-"tabla\_casos\_confirmados.csv" toman precendencia.
+"tabla\_casos\_confirmados.csv" toman precendencia. A partir del
+`2020-04-20` ya sólo se presentó el mapa por incidencia acumulada, y no
+el mapa con casos acumulados.
 
 Todos los archivos PDF son descargados diariamente de la
 [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia) en el siguiente URL:
 https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diario-238449
+
+## Problemas conocidos
+* Los datos del mapa de `2020-04-18` son idénticos a los de `2020-04-17`.
 
 ## Compilación de datos
 

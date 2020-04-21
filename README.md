@@ -35,8 +35,9 @@ tablas no concuerdan con las tablas mostradas en las conferencias de prensa
 de la Secretaría de Salud, posiblemente porque los boletines incluyen
 casos probables.
 * **src**: Código para procesar datos.
-* **ssa_dge_2020-04-19**: **Congelado después de 2020-04-19 cuando la DGE dejó de
-publicar los comunicados técnicos diarios.**.
+* **ssa_dge_2020-04-19**: **Después de 2020-04-19 la DGE ya sólo publica
+un PDF con una captura del mapa nacional de incidencia. Se almacena el
+PDF pero las tablas ya no se actualizan**.
 Datos liberados por la [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia)
 de la [Secretaría de Salud](https://www.gob.mx/salud) a través de sus comunicados
 técnicos diarios así como las tablas de casos confirmados y casos sospechosos
