@@ -59,18 +59,8 @@ Cada directorio contiene los siguientes archivos:
 
 * **base_de_datos.csv**: La base de datos liberada por el gobierno en formato
 CSV para ese día y convertida a UTF-8 de ser necesario.
-* **descriptores.csv** Tabla en formato CSV que explica el significado
-de cada columna en la base de datos.
-* **Diccionarios**: Archivos en formato CSV con nombres en mayúsculas. Explican
-el código usado por la base de datos del gobierno. Estos archivos son:
-*ENTIDADES.csv*, *MUNICIPIOS.csv*, *NACIONALIDAD.csv*, *ORIGEN.csv*,
-*RESULTADO.csv*, *SECTOR.csv*, *SEXO.csv*, *SI_NO.csv* y *TIPO_PACIENTE.csv*.
 
 ## Problemas conocidos
-
-* El 2020-04-16 la base de datos del gobierno cambió el nombre de
-dos de sus columnas. `HABLA_LENGUA_INDI` camibió a `HABLA_LENGUA_INDIG`,
-mientras que `OTRAS_CON` cambió a `OTRAS_COM`.
 
 * Cuando se inicializaron las series de tiempo sobre fechas de confirmación
 de casos/defunciones. Se encontraron algunas discrepancias entres los
@@ -100,3 +90,11 @@ pero estas son las discrepancias. Hay que notar que las diferencias del
     diferencias muertes Veracruz 2020-04-18 7 8
     diferencias muertes Yucatán 2020-04-18 8 10
     ```
+
+### Resueltos
+
+* El 2020-04-16 la base de datos del gobierno cambió el nombre de
+dos de sus columnas. `HABLA_LENGUA_INDI` camibió a `HABLA_LENGUA_INDIG`,
+mientras que `OTRAS_CON` cambió a `OTRAS_COM`. El 2020-04-19, la SSA
+actualizó retroactivamente sus tablas, homogeneizando los nombres de las
+columnas y añadiendo identificador de paciente.
