@@ -1,4 +1,9 @@
 # Datos de la Dirección general de Epidemiología de la Secretaría de Salud
+**CONGELADO**: El `2020-04-19` la DGE ya no publicó sus tablas de casos
+confirmados y sospechosos. El `2020-04-20` ya no se publicaron los
+comunicados técnicos diarios y el mapa interactivo dejó de incluir el
+número de casos/sospechosos/defunciones/negativos por estado. Este
+directorio *ya no se actualiza*.
 
 **IMPORTANTE**: A partir del 2020-04-13 la Secretaría de Salud ha comenzado
 a publicar información más completa del COVID-19 en la plataforma de

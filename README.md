@@ -35,12 +35,14 @@ tablas no concuerdan con las tablas mostradas en las conferencias de prensa
 de la Secretaría de Salud, posiblemente porque los boletines incluyen
 casos probables.
 * **src**: Código para procesar datos.
-* **ssa_dge**: Datos liberados por la [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia)
+* **ssa_dge_2020-04-19**: **Congelado después de 2020-04-19 cuando la DGE dejó de
+publicar los comunicados técnicos diarios.**.
+Datos liberados por la [Dirección General de Epidemiología](https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-epidemiologia)
 de la [Secretaría de Salud](https://www.gob.mx/salud) a través de sus comunicados
 técnicos diarios así como las tablas de casos confirmados y casos sospechosos
 del InDRE y liberados diariamente. También se obtienen datos del
 [mapa interactivo](https://covid19.sinave.gob.mx/mapa.aspx) de la DGE.
-El archivo [ssa_dge/README.md](ssa_dge/README.md) describe los datos
+El archivo [ssa_dge_2020-04-19/README.md](ssa_dge_2020-04-19/README.md) describe los datos
 disponibles. `NOTA`: *Las tablas de casos confirmados y sospechosos dejaron
 de publicarse después del 2020-04-18*.
 * **util**: Archivos con utilidades para el código.
