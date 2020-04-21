@@ -36,7 +36,7 @@ clave del municipio de la entidad correspondiente.
 casos confirmados a nivel nacional. Contiene las mismas columnas que
 *serie_tiempo_estados_um_confirmados.csv* pero los números son agregados
 nacionales.
-* **serie_tiempo_<REGION>_fecha_confirmación.csv**: Los archivos de este tipo
+* **serie_tiempo_\<REGION\>_fecha_confirmación.csv**: Los archivos de este tipo
 contienen series de tiempo de casos y defunciones de acuerdo a la fecha
 en que fueron reportados por la SSA. Aunque estos números no son tan útiles
 para describir la epidemia, son mejores para comparar con otros países y
