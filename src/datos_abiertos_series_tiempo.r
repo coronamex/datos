@@ -1,6 +1,19 @@
 #!/usr/bin/env Rscript
 library(tidyverse)
 
+#' Title
+#' 
+#' Crea una serie de tiempo por fecha de síntomas, ingreso y defunción basado en base
+#' de datos abiertos de la SSA.
+#'
+#' @param Dat 
+#' @param variable 
+#' @param resultado 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 crear_series_tiempo_variable <- function(Dat, variable = "ENTIDAD_UM", resultado = c("1")){
   
   Serie_var <- Dat %>%
