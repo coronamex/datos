@@ -13,11 +13,13 @@ encontrar_nuevos_dirs <- function(dir, max_fecha){
     fecha_dir <- file.path(dir, as.character(fecha))
     
     if(dir.exists(fecha_dir)){
-      nuevos_dirs <- c(nuevos_dirs, fecha_dir)
+      nuevos_dirs <- c(nuevos_dirs, as.character(fecha_dir))
     }else{
       return(nuevos_dirs)
     }
   }
+  
+  return(nuevos_dirs)
 }
 
 args <- list(estados_lut = "util/estados_lut_datos_abiertos.csv",
@@ -55,7 +57,7 @@ Serie_nacional <- read_csv(args$serie_nacional,
 stop_for_problems(Serie_nacional)
 
 max_fecha <- min(max(Serie_estados$fecha), max(Serie_municipios$fecha), max(Serie_nacional$fecha))
-
+max_fecha
 fechas_dirs <- encontrar_nuevos_dirs(dir = args$dir_salida, max_fecha = max_fecha)
 if(length(fechas_dirs) == 0){
   stop("No hay directorios nuevos")
@@ -148,7 +150,6 @@ Dat <- fechas_dirs %>%
       }, .id = "region") %>%
       mutate(region_nombre = region_nombre)
   }, .id = "tipo")
-Dat
 
 # Estados
 Nuevos_estados <- Dat %>%
@@ -166,8 +167,6 @@ Nuevos_estados <- Dat %>%
             by = c("fecha", "estado"),
             suffix = c("_um", "_res")) %>%
   select(estado, fecha, everything())
-Nuevos_estados
-Serie_estados
 
 # Municipios
 Nuevos_municipios <- Dat %>%
@@ -176,8 +175,6 @@ Nuevos_municipios <- Dat %>%
   select(-region_nombre, -tipo) %>%
   mutate(municipio = as.vector(set_names(municipios_lut$X2, municipios_lut$X1)[region])) %>%
   select(municipio, fecha, casos_acumulados, muertes_acumuladas, clave = region) 
-Nuevos_municipios
-Serie_municipios
 
 # Nacional
 Nuevos_nacional <- Dat %>%
@@ -198,8 +195,6 @@ Nuevos_nacional <- Dat %>%
   group_by(fecha) %>%
   summarise(casos_acumulados = sum(casos_acumulados_um, na.rm = TRUE),
             muertes_acumuladas = sum(muertes_acumuladas_um, na.rm = TRUE))
-Nuevos_nacional
-Serie_nacional
 
 # Juntar
 Serie_estados <- Serie_estados %>%

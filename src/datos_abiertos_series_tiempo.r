@@ -69,7 +69,8 @@ crear_series_tiempo_variable <- function(Dat, variable = "ENTIDAD_UM", resultado
     }, resultado = resultado, .id = variable)
   
   Serie_agg <- Serie_var %>%
-    select(!variable) %>%
+    # select(!variable) %>%
+    select(!all_of(variable)) %>%
     group_by(fecha) %>%
     summarise_all(sum) %>%
     arrange(fecha)
@@ -94,6 +95,7 @@ municipios_lut <- read_csv(args$municipios_lut,
                            col_types = cols(.default = col_character()))
 stop_for_problems(municipios_lut)
 
+cat("Leer base de datos\n")
 Dat <- read_csv(args$base_de_datos,
                 col_types = cols(FECHA_ACTUALIZACION = col_date(format = "%Y-%m-%d"),
                                  FECHA_INGRESO = col_date(format = "%Y-%m-%d"),
@@ -108,6 +110,7 @@ Dat <- Dat %>%
          PAIS_ORIGEN = parse_character(PAIS_ORIGEN, na = c("97", "", "NA")))
 
 # ENTIDAD_UM
+cat("Crear estado_um\n")
 Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_UM", resultado = "1")
 # Series$Serie_var
 # Series$Serie_agg
@@ -119,6 +122,7 @@ Series$Serie_agg %>%
   write_csv(path = file.path(args$dir_salida, "serie_tiempo_nacional_confirmados.csv"))
 
 # ENTIDAD_RES
+cat("Crear estado_res\n")
 Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_RES", resultado = "1")
 # Series$Serie_var
 # Series$Serie_agg
@@ -129,11 +133,13 @@ Series$Serie_var %>%
   write_csv(path = file.path(args$dir_salida, "serie_tiempo_estados_res_confirmados.csv"))
 
 # MUNICIPIO_RES
+cat("Crear municipio_res\n")
 Series <- crear_series_tiempo_variable(Dat = Dat %>%
                                          mutate(municipio = paste(ENTIDAD_RES, MUNICIPIO_RES,  sep = "_")),
                                        variable = "municipio", resultado = "1")
 # Series$Serie_var
 # Series$Serie_agg
+cat("Crear nacional\n")
 Series$Serie_var %>%
   mutate(clave = municipio,
          municipio = set_names(municipios_lut$X2, municipios_lut$X1)[municipio]) %>%
