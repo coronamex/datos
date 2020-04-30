@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DIR="./datos_abiertos/"
-fecha="2020-04-28"
+fecha="2020-04-29"
 
 echo $DIR
 echo $fecha
