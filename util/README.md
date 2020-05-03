@@ -9,3 +9,5 @@ utilizados por la DGE/SSA a su nombre estandarizado.
 * **estados_lut_datos_abiertos.csv**: Tabla que asocia el código para
 las entidades utilizado en los datos abiertos de la Secretaría de Salud
 con el nombre común de dichas entidades. *LUT = Look-Up Table*.
+* **zonas_metropolitadas_2015**: Definición de muncipios que se
+agrupan en Zonas Metropolitanas.
