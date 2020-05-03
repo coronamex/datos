@@ -10,7 +10,7 @@ y tomarán precendencia para los análisis y visualizaciones en
 los datos de los reportes diarios mientras el gobierno los siga publicando.
 
 Este repositorio contiene los datos presentados en
-[CoronaMex](https://github.com/coronamex).
+[CoronaMex](https://coronamex.github.io).
 
 Los siguientes directorios están presentes:
 
