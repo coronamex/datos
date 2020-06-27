@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
 
 DIR="./datos_abiertos/"
-fecha="2020-06-25"
+fecha="2020-06-26"
 
 echo $DIR
 echo $fecha
 
 
 echo "Borrando vínculo"
-rm $DIR/base_de_datos.csv
+rm $DIR/base_de_datos.csv.gz
 if [ $? -ne 0 ]; then
     echo "Error"
     exit 1
 fi
 
 echo "Creando vínculo"
-ln -s $fecha/base_de_datos.csv $DIR/base_de_datos.csv
+ln -s $fecha/base_de_datos.csv.gz $DIR/base_de_datos.csv.gz
 if [ $? -ne 0 ]; then
     echo "Error"
     exit 1

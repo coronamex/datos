@@ -79,7 +79,7 @@ crear_series_tiempo_variable <- function(Dat, variable = "ENTIDAD_UM", resultado
 }
 
 
-args <- list(base_de_datos = "datos_abiertos/base_de_datos.csv",
+args <- list(base_de_datos = "datos_abiertos/base_de_datos.csv.gz",
              estados_lut = "util/estados_lut_datos_abiertos.csv",
              municipios_lut = "util/municipios_lut_datos_abiertos.csv",
              dir_salida = "datos_abiertos/")
@@ -117,9 +117,9 @@ Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_UM", resul
 Series$Serie_var %>%
   mutate(estado = estados_lut[ENTIDAD_UM]) %>%
   select(-ENTIDAD_UM) %>%
-  write_csv(path = file.path(args$dir_salida, "serie_tiempo_estados_um_confirmados.csv"))
+  write_csv(path = file.path(args$dir_salida, "serie_tiempo_estados_um_confirmados.csv.gz"))
 Series$Serie_agg %>%
-  write_csv(path = file.path(args$dir_salida, "serie_tiempo_nacional_confirmados.csv"))
+  write_csv(path = file.path(args$dir_salida, "serie_tiempo_nacional_confirmados.csv.gz"))
 
 # ENTIDAD_RES
 cat("Crear estado_res\n")
@@ -130,7 +130,7 @@ Series$Serie_var %>%
   mutate(estado = estados_lut[ENTIDAD_RES]) %>%
   select(-ENTIDAD_RES) %>%
   # print(n=100)
-  write_csv(path = file.path(args$dir_salida, "serie_tiempo_estados_res_confirmados.csv"))
+  write_csv(path = file.path(args$dir_salida, "serie_tiempo_estados_res_confirmados.csv.gz"))
 
 # MUNICIPIO_RES
 cat("Crear municipio_res\n")
@@ -145,6 +145,6 @@ Series$Serie_var %>%
          municipio = set_names(municipios_lut$X2, municipios_lut$X1)[municipio]) %>%
   # select(-MUNICIPIO_RES) %>%
   # print(n=100) %>%
-  write_csv(path = file.path(args$dir_salida, "serie_tiempo_municipio_res_confirmados.csv"))
+  write_csv(path = file.path(args$dir_salida, "serie_tiempo_municipio_res_confirmados.csv.gz"))
 
 

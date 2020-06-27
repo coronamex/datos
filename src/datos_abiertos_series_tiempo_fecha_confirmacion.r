@@ -25,9 +25,9 @@ encontrar_nuevos_dirs <- function(dir, max_fecha){
 args <- list(estados_lut = "util/estados_lut_datos_abiertos.csv",
              municipios_lut = "util/municipios_lut_datos_abiertos.csv",
              dir_salida = "datos_abiertos/",
-             serie_estados = "datos_abiertos/serie_tiempo_estados_fecha_confirmacion.csv",
-             serie_municipios = "datos_abiertos/serie_tiempo_municipios_fecha_confirmacion.csv",
-             serie_nacional = "datos_abiertos/serie_tiempo_nacional_fecha_confirmacion.csv")
+             serie_estados = "datos_abiertos/serie_tiempo_estados_fecha_confirmacion.csv.gz",
+             serie_municipios = "datos_abiertos/serie_tiempo_municipios_fecha_confirmacion.csv.gz",
+             serie_nacional = "datos_abiertos/serie_tiempo_nacional_fecha_confirmacion.csv.gz")
 
 estados_lut <- read_csv(args$estados_lut,
                         col_names = FALSE,
@@ -69,7 +69,7 @@ Dat <- fechas_dirs %>%
     fecha <- basename(fecha_dir) %>% parse_date(format = "%Y-%m-%d")
     cat(as.character(fecha), "\n")
     
-    Dat <- read_csv(file.path(fecha_dir, "base_de_datos.csv"),
+    Dat <- read_csv(file.path(fecha_dir, "base_de_datos.csv.gz"),
                     col_types = cols(FECHA_ACTUALIZACION = col_date(format = "%Y-%m-%d"),
                                      FECHA_INGRESO = col_date(format = "%Y-%m-%d"),
                                      FECHA_SINTOMAS = col_date(format = "%Y-%m-%d"),
