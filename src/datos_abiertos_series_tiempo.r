@@ -34,15 +34,15 @@ crear_series_tiempo_variable <- function(Dat, variable = "ENTIDAD_UM", resultado
         # names(fecha_sintomas)
         
         res <-  bind_rows(tibble(fecha = names(fecha_sintomas),
-                                 numero = fecha_sintomas,
+                                 numero = as.numeric(fecha_sintomas),
                                  grupo = "sintomas_nuevos"),
                           tibble(fecha = names(fecha_ingreso),
-                                 numero = fecha_ingreso,
+                                 numero = as.numeric(fecha_ingreso),
                                  grupo = "ingreso_nuevos"))
         if(length(fecha_defuncion)){
           res <- res %>%
             bind_rows(tibble(fecha = names(fecha_defuncion),
-                             numero = fecha_defuncion,
+                             numero = as.numeric(fecha_defuncion),
                              grupo = "muertes_nuevas"))
         }else{
           res <- res %>%
