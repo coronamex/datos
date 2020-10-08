@@ -1,4 +1,5 @@
 library(tidyverse)
+source("../visualizando/util/leer_datos_abiertos.r")
 
 encontrar_nuevos_dirs <- function(dir, max_fecha){
   
@@ -69,22 +70,12 @@ Dat <- fechas_dirs %>%
     fecha <- basename(fecha_dir) %>% parse_date(format = "%Y-%m-%d")
     cat(as.character(fecha), "\n")
     
-    Dat <- read_csv(file.path(fecha_dir, "base_de_datos.csv.gz"),
-                    col_types = cols(FECHA_ACTUALIZACION = col_date(format = "%Y-%m-%d"),
-                                     FECHA_INGRESO = col_date(format = "%Y-%m-%d"),
-                                     FECHA_SINTOMAS = col_date(format = "%Y-%m-%d"),
-                                     FECHA_DEF = col_character(),
-                                     EDAD = col_number(),
-                                     .default = col_character())) 
-    stop_for_problems(Dat)
-    Dat <- Dat %>%
-      mutate(FECHA_DEF = parse_date(x = FECHA_DEF, format = "%Y-%m-%d", na = c("9999-99-99", "", "NA")),
-             PAIS_NACIONALIDAD = parse_character(PAIS_NACIONALIDAD, na = c("99", "", "NA")),
-             PAIS_ORIGEN = parse_character(PAIS_ORIGEN, na = c("97", "", "NA")))
-    
-    # Confirmados
-    Dat <- Dat %>%
-      filter(RESULTADO == "1")
+    # Leer confirmados de datos abiertos
+    Dat <- leer_datos_abiertos(file.path(fecha_dir, "base_de_datos.csv.gz"),
+                               solo_confirmados = TRUE,
+                               solo_fallecidos = FALSE,
+                               solo_laboratorio = FALSE,
+                               version = "adivinar")
     
     entidad_um <- table(Dat$ENTIDAD_UM)
     entidad_res <- table(Dat$ENTIDAD_RES)

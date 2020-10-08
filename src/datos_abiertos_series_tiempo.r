@@ -1,5 +1,6 @@
 #!/usr/bin/env Rscript
 library(tidyverse)
+source("../visualizando/util/leer_datos_abiertos.r")
 
 #' Title
 #' 
@@ -8,24 +9,20 @@ library(tidyverse)
 #'
 #' @param Dat 
 #' @param variable 
-#' @param resultado 
 #'
 #' @return
 #' @export
 #'
 #' @examples
-crear_series_tiempo_variable <- function(Dat, variable = "ENTIDAD_UM", resultado = c("1")){
+crear_series_tiempo_variable <- function(Dat, variable = "ENTIDAD_UM"){
   
   Serie_var <- Dat %>%
     split(.[,variable]) %>%
-    map_dfr(function(d, fecha_final = Sys.Date(), resultado = c("1")){
+    map_dfr(function(d, fecha_final = Sys.Date()){
       # d <- Dat %>% filter(ENTIDAD_UM == "01")
       # d <- Dat %>% filter(MUNICIPIO_RES == "123")
       # fecha_final <- Sys.Date()
       # cat(unique(d[[variable]]), "\n")
-      
-      d <- d %>%
-        filter(RESULTADO %in% resultado)
       
       if(nrow(d)){
         fecha_sintomas <- table(d$FECHA_SINTOMAS)
@@ -66,7 +63,7 @@ crear_series_tiempo_variable <- function(Dat, variable = "ENTIDAD_UM", resultado
         # print(n = 100)
       }
       
-    }, resultado = resultado, .id = variable)
+    }, .id = variable)
   
   Serie_agg <- Serie_var %>%
     # select(!variable) %>%
@@ -96,22 +93,15 @@ municipios_lut <- read_csv(args$municipios_lut,
 stop_for_problems(municipios_lut)
 
 cat("Leer base de datos\n")
-Dat <- read_csv(args$base_de_datos,
-                col_types = cols(FECHA_ACTUALIZACION = col_date(format = "%Y-%m-%d"),
-                                 FECHA_INGRESO = col_date(format = "%Y-%m-%d"),
-                                 FECHA_SINTOMAS = col_date(format = "%Y-%m-%d"),
-                                 FECHA_DEF = col_character(),
-                                 EDAD = col_number(),
-                                 .default = col_character())) 
-stop_for_problems(Dat)
-Dat <- Dat %>%
-  mutate(FECHA_DEF = parse_date(x = FECHA_DEF, format = "%Y-%m-%d", na = c("9999-99-99", "", "NA")),
-         PAIS_NACIONALIDAD = parse_character(PAIS_NACIONALIDAD, na = c("99", "", "NA")),
-         PAIS_ORIGEN = parse_character(PAIS_ORIGEN, na = c("97", "", "NA")))
+Dat <- leer_datos_abiertos(args$base_de_datos,
+                           solo_confirmados = TRUE,
+                           solo_fallecidos = FALSE,
+                           solo_laboratorio = FALSE,
+                           version = "adivinar")
 
 # ENTIDAD_UM
 cat("Crear estado_um\n")
-Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_UM", resultado = "1")
+Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_UM")
 # Series$Serie_var
 # Series$Serie_agg
 Series$Serie_var %>%
@@ -123,7 +113,7 @@ Series$Serie_agg %>%
 
 # ENTIDAD_RES
 cat("Crear estado_res\n")
-Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_RES", resultado = "1")
+Series <- crear_series_tiempo_variable(Dat = Dat, variable = "ENTIDAD_RES")
 # Series$Serie_var
 # Series$Serie_agg
 Series$Serie_var %>%
@@ -136,7 +126,7 @@ Series$Serie_var %>%
 cat("Crear municipio_res\n")
 Series <- crear_series_tiempo_variable(Dat = Dat %>%
                                          mutate(municipio = paste(ENTIDAD_RES, MUNICIPIO_RES,  sep = "_")),
-                                       variable = "municipio", resultado = "1")
+                                       variable = "municipio")
 # Series$Serie_var
 # Series$Serie_agg
 cat("Crear nacional\n")
