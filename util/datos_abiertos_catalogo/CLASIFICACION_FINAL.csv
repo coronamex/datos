@@ -1,13 +1,17 @@
-CLAVE,CLASIFICACIÓN,DESCRIPCIÓN
+CLAVE,CLASIFICACIÓN,DESCRIPCIÓN,
 1,CASO DE COVID-19 CONFIRMADO POR ASOCIACIÓN CLÍNICA EPIDEMIOLÓGICA,"Confirmado por asociación aplica cuando el caso informó ser contacto de un positivo a COVID-19 (y este se encuentra registrado en el SISVER) y:
-Al caso no se le tomo muestra o la muestra resultó no válida. "
+Al caso no se le tomo muestra o la muestra resultó no válida. ",
 2,CASO DE COVID-19 CONFIRMADO POR COMITÉ DE  DICTAMINACIÓN,"Confirmado por dictaminación solo aplica para defunciones bajo las siguientes condiciones: 
-Al caso no se le tomo muestra o sí se tomó muestra, pero la muestra resultó no válida. "
+Al caso no se le tomo muestra o sí se tomó muestra, pero la muestra resultó no válida. ",
 3,CASO DE SARS-COV-2  CONFIRMADO POR LABORATORIO,"Confirmado por laboratorio aplica cuando:
-El caso tiene muestra y resultó positiva  a SARS-CoV-2, sin importar si el caso tienen asociación clínica epidemiológica."
+El caso tiene muestra y resultó positiva  a SARS-CoV-2, sin importar si el caso tienen asociación clínica epidemiológica.",
 4,INVÁLIDO POR LABORATORIO,Inválido aplica cuando el caso no tienen asociación clínico epidemiológica, ni dictaminación a COVID-19. Se le tomó muestra y esta resultó no válida. 
 5,NO REALIZADO POR LABORATORIO,No realizado aplica cuando el caso no tienen asociación clínico epidemiológica, ni dictaminación a COVID-19 y se le tomó muestra y esta no se procesó.
 6,CASO SOSPECHOSO,"Sospechoso aplica cuando: 
-El caso no tienen asociación clínico epidemiológica, ni dictaminación a COVID-19 y no se le tomó muestra, o se le tomó muestra y está pendiente de resultado, sin importar otra condición."
+El caso no tienen asociación clínico epidemiológica, ni dictaminación a COVID-19 y no se le tomó muestra, o se le tomó muestra y está pendiente de resultado, sin importar otra condición.",
 7,NEGATIVO A SARS-COV-2 POR LABORATORIO,"Negativo aplica cuando el caso:
-Se le tomo muestra y esta resultó: negativa a SARS-COV-2 o positiva a cualquier otro virus respiratorio (Influenza, VSR, Bocavirus, otros) sin importar que este caso tenga asociación clínico epidemiológica o dictaminación a COVID-19."
+Se le tomo muestra y esta resultó: negativa a SARS-COV-2 o positiva a cualquier otro virus respiratorio (Influenza, VSR, Bocavirus, otros) sin importar que este caso tenga asociación clínico epidemiológica o dictaminación a COVID-19.",
+8,POSITIVO A SARS-COV-2 POR PRUEBA DE ANTÍGENO,"Positivo a muestra de antígeno aplica cuando el caso:
+Se le tomo muestra de antígeno y esta resultó: positiva a SARS-COV-2, sin importar que este caso tenga asociación clínico epidemiológica o dictaminación a COVID-19.",
+9,SOSPECHOSO A SARS-COV-2 CON PRUEBA DE ANTÍGENO NEGATIVA,"Aplica cuando el caso:
+Se le tomo muestra de antígeno y esta resultó: negativa a SARS-COV-2 y el caso no tienen asociación clínico epidemiológica, ni dictaminación a COVID-19 y no se le tomó muestra de laboratorio.",

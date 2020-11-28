@@ -32,8 +32,10 @@ NO,NOMBRE DE VARIABLE,DESCRIPCIÓN DE VARIABLE,FORMATO O FUENTE
 31,OTRO_CASO,Identifica si el paciente tuvo contacto con algún otro caso diagnósticado con SARS CoV-2,CATÁLOGO: SI_ NO                                                                  
 32,TOMA_MUESTRA,Identifica si al paciente se le tomó muestra.,CATÁLOGO: SI_ NO
 33,RESULTADO_LAB,"Identifica el resultado del análisis de la muestra reportado por el  laboratorio de la Red Nacional de Laboratorios de Vigilancia Epidemiológica (INDRE, LESP y LAVE) y laboratorios privados avalados por el InDRE cuyos resultados son registrados en SISVER. (Catálogo de resultados diagnósticos anexo).",CATÁLOGO: RESULTADO_LAB
-34,CLASIFICACION_FINAL,"Identifica si el paciente es un caso de COVID-19 según el catálogo ""CLASIFICACION_FINAL"".",CATÁLOGO: CLASIFICACION_FINAL
-35,MIGRANTE,Identifica si el paciente es una persona migrante.,CATÁLOGO: SI_ NO                                                                  
-36,PAIS_NACIONALIDAD,Identifica la nacionalidad del paciente.,"TEXTO, 99= SE IGNORA"
-37,PAIS_ORIGEN,Identifica el país del que partió el paciente rumbo a México.,"TEXTO, 97= NO APLICA"
-38,UCI,Identifica si el paciente requirió ingresar a una Unidad de Cuidados Intensivos.,CATÁLOGO: SI_ NO                                                                  
+34,TOMA_MUESTRA_ANTIGENO,Identifica si al paciente se le tomó muestra de antígeno para SARS-CoV-2,CATÁLOGO: SI_ NO
+35,RESULTADO_ANTIGENO,Identifica el resultado del análisis de la muestra de antígeno tomada al paciente,CATÁLOGO: RESULTADO_ANTIGENO
+36,CLASIFICACION_FINAL,"Identifica si el paciente es un caso de COVID-19 según el catálogo ""CLASIFICACION_FINAL"".",CATÁLOGO: CLASIFICACION_FINAL
+37,MIGRANTE,Identifica si el paciente es una persona migrante.,CATÁLOGO: SI_ NO                                                                  
+38,PAIS_NACIONALIDAD,Identifica la nacionalidad del paciente.,"TEXTO, 99= SE IGNORA"
+39,PAIS_ORIGEN,Identifica el país del que partió el paciente rumbo a México.,"TEXTO, 97= NO APLICA"
+40,UCI,Identifica si el paciente requirió ingresar a una Unidad de Cuidados Intensivos.,CATÁLOGO: SI_ NO                                                                  
